@@ -59,6 +59,8 @@ a
 
 .heading
 {
+    position: relative; 
+
     padding: 100px 0;
 }
 .heading h2
@@ -88,7 +90,7 @@ a
 {
     position: absolute;
     top: 30px;
-    right: -110px;
+    right: -120px;
 
     width: 100px;
     height: 3px;

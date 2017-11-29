@@ -97,3 +97,94 @@
     src: url('../fonts/GothamProBlackItalic/GothamProBlackItalic.eot');
     src: url('../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/GothamProBlackItalic/GothamProBlackItalic.woff') format('woff'), url('../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf') format('truetype');
 }
+
+@font-face
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal; 
+
+    src: url('../fonts/icomoon.eot?3en2e0');
+    src: url('../fonts/icomoon.eot?3en2e0#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3en2e0') format('truetype'), url('../fonts/icomoon.woff?3en2e0') format('woff'), url('../fonts/icomoon.svg?3en2e0#icomoon') format('svg');
+}
+
+[class^='icon-'],
+[class*=' icon-']
+{
+    font-family: 'icomoon' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brand:before
+{
+    content: '\e900';
+
+    color: #999;
+}
+
+.icon-facebook:before
+{
+    content: '\e901';
+
+    color: #fefefe;
+}
+
+.icon-github:before
+{
+    content: '\e902';
+}
+
+.icon-linkedin:before
+{
+    content: '\e903';
+}
+
+.icon-linkedin2:before
+{
+    content: '\e904';
+}
+
+.icon-medium:before
+{
+    content: '\e905';
+}
+
+.icon-reddit:before
+{
+    content: '\e906';
+}
+
+.icon-telegram:before
+{
+    content: '\e907';
+
+    color: #fff;
+}
+
+.icon-twitter:before
+{
+    content: '\e908';
+
+    color: #fff;
+}
+
+.icon-YouTube-2:before
+{
+    content: '\e909';
+
+    color: #fff;
+}
+
+.icon-chevron-thin-down:before
+{
+    content: '\e90a';
+}

@@ -164,7 +164,7 @@
 .about span
 {
     font-family: 'GothamProBold';
-    font-size: 180px;
+    font-size: 170px;
 
     position: absolute;
     z-index: 1;
@@ -209,11 +209,11 @@
 .advantages span
 {
     font-family: 'GothamProBold';
-    font-size: 180px;
+    font-size: 160px;
 
     position: absolute;
     z-index: 1;
-    top: 35px;
+    top: 52px;
     right: 0;
 
     opacity: .1;
@@ -241,4 +241,325 @@
 .advantages__block--margin
 {
     margin-right: 15px;
+}
+
+.client
+{
+    position: relative;
+
+    background: #111;
+}
+.client .heading
+{
+    padding-bottom: 55px;
+}
+.client .heading h2
+{
+    color: #fff;
+}
+.client .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 35px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.client p
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px; 
+
+    padding-right: 30px;
+}
+.client__img img
+{
+    width: 100%;
+}
+.client__app
+{
+    position: relative;
+
+    padding-top: 90px;
+}
+.client__app a
+{
+    position: relative;
+
+    display: inline-block;
+
+    padding: 10px 0 10px 70px; 
+
+    border-radius: 30px;
+    background: #000;
+}
+.client__app a span
+{
+    font-size: 18px;
+
+    display: inline-block; 
+
+    color: #fff;
+}
+.client__app a p
+{
+    font-size: 13px;
+    line-height: 18px;
+
+    display: inline-block;
+
+    padding-right: 0;
+}
+.client__app a img
+{
+    position: absolute;
+    top: 13px;
+    left: 20px; 
+
+    width: 30px;
+    height: auto;
+}
+.client__lng
+{
+    padding-top: 30px;
+}
+.client__lng img
+{
+    width: 25px;
+    padding-right: 20px;
+}
+
+.advisors
+{
+    position: relative;
+
+    background: #f8f8f8;
+}
+.advisors .heading
+{
+    padding-bottom: 60px;
+}
+.advisors .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.advisors__block
+{
+    margin-bottom: 100px;
+}
+.advisors__block a
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%; 
+
+    color: #000;
+}
+.advisors__block b
+{
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #999;
+}
+.advisors__block span
+{
+    display: block;
+
+    width: 30px;
+    height: 2px;
+    margin: 20px 0; 
+
+    background: #f0be9c;
+}
+.advisors__block .icon-linkedin
+{
+    position: absolute;
+    bottom: 7px;
+
+    padding-left: 10px;
+
+    color: #999;
+}
+.advisors__block p
+{
+    font-size: 12px;
+    font-weight: 400;
+
+    width: 200px; 
+
+    color: #333;
+}
+
+.team
+{
+    position: relative;
+
+    background: #f8f8f8;
+}
+.team .heading
+{
+    padding-bottom: 60px;
+}
+.team .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.team a
+{
+    display: inline-block; 
+
+    margin-bottom: 30px;
+}
+.team a p
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+    position: relative; 
+
+    color: #000;
+}
+.team a b
+{
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #999;
+}
+.team a span
+{
+    display: block;
+
+    width: 30px;
+    height: 2px;
+    margin: 20px auto; 
+
+    background: #f0be9c;
+}
+.team a .icon-linkedin
+{
+    position: absolute;
+    bottom: 7px;
+
+    padding-left: 10px;
+
+    color: #999;
+}
+
+.faq
+{
+    position: relative;
+
+    padding-bottom: 70px; 
+
+    background: #fff;
+}
+.faq span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.faq__block
+{
+    border-bottom: 1px solid #ddd;
+}
+.faq__block a
+{
+    position: relative;
+
+    display: inline-block;
+
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 15px 0;
+    padding-right: 70px;
+
+    color: #000;
+}
+.faq__block a .icon-chevron-thin-down
+{
+    position: absolute;
+    top: 38%;
+    right: 20px;
+
+    transition: all .3s;
+
+    color: #4d2ce0;
+}
+.faq__block p
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px; 
+
+    padding: 15px 0;
+
+    color: #999;
+}
+.faq__block--one
+{
+    border-top: 1px solid #ddd;
+}
+.faq .btn
+{
+    font-size: 15px; 
+
+    margin-top: 35px;
+    padding: 17px 50px;
+
+    color: #fff;
+    border: 2px solid #000;
+    background: #000;
+}
+.faq .btn:hover
+{
+    color: #000; 
+    background: none;
+}
+
+.faq__block.active .icon-chevron-thin-down
+{
+    transform: rotate(180deg);
+
+    color: #999;
 }
