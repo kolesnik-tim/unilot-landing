@@ -6,7 +6,7 @@
 	bottom: 0
 	display: none 
 	overflow-y: scroll
-	width: 450px
+	width: 100%
 	min-height: 100vh
 	-webkit-overflow-scrolling: touch
 	background: #181a22
@@ -35,82 +35,7 @@
 		font-size: 25px
 		font-weight: 100
 		transition: all 0.3s
-		&:hover
-			color: #f6c38e
-	.lng
-		border-top: 2px solid #2c2e3c
-		border-bottom: 1px solid #2c2e3c
-		background: #1e202b
-		a
-			font-size: 20px
-			color: #cdcdcd
-			position: relative
-			padding: 20px 80px
-			border-bottom: 1px solid #2c2e3c
-			display: inline-block
-			width: 100%
-			box-sizing: border-box
-			img
-				position: absolute
-				left: 50px
-				top: 25px
-			i
-				position: absolute
-				right: 55px
-				transition: all 0.3s ease-in-out
-		&__block
-			a
-				border: none
-		&.active
-			.icon-caret-down
-				transform: rotate(180deg)
-				color: #999999
-	.unilot
-		background: #181a22
-		width: 100%
-		padding-top: 25px
-		padding-bottom: 100px
-		padding-left: 50px
-		p
-			font-size: 14px
-			color: #818494
-			padding: 20px 0
-		a
-			padding: 10px 0px 10px 45px
-			background: $black
-			display: inline-block
-			margin-bottom: 10px
-			width: 75%
-			font-size: 18px
-			position: relative
-			border-radius: 5px
-			color: $white
-			.icon-apple
-				position: absolute
-				left: 10px
-				top: 4px
-				font-size: 30px
-			img
-				position: absolute
-				left: 5px
-				top: 4px
-				font-size: 30px
-	.social
-		position: fixed
-		bottom: 0
-		padding-top: 25px
-		padding-bottom: 25px
-		width: 450px
-		border-top: 2px solid #2c2e3c
-		background: #181a22
-		i
-			padding-left: 50px
-		.icon-facebook, .icon-paper-plane, .icon-reddit, .icon-twitter
-			font-size: 18px
-			color: $white
-			cursor: pointer
-			&:hover
-				color: $red
+
 .slideout-menu-left
 	left: 0
 .slideout-panel
@@ -216,10 +141,44 @@
 			border-radius: 2px
 .top-line-anchor
 	display: inline-block
-	@media(max-width: 767px)
-		left: 20px
+	position: absolute
+	top: 55px
+	left: 40px
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header
+	padding: 40px 0
+	font-family: "GothamProRegular"
+	background: $light-gray
+	li
+		a
+			font-size: 15px
+			color: $black
+	&__lng
+		a
+			font-size: 18px
+			&:first-child
+				margin-right: 10px
+				color: $black
+				border: 2px solid $white
+				padding: 20px 15px
+				border-radius: 60px
 
 

@@ -17,25 +17,12 @@ body
     background-size: cover;
 }
 
-.scene
-{
-    z-index: 77;
-}
-.scene img
-{
-    position: absolute;
-    top: 0;
-    left: -10%;
-}
-
 p
 {
-    font-size: 18px;
-
     margin: 0;
     padding: 0;
 
-    color: #999;
+    color: #666;
 }
 
 h1,
@@ -70,52 +57,21 @@ a
     padding: 0 20px;
 }
 
-@media (min-width: 1024px)
+.heading
 {
-    .hidden-md
-    {
-        display: none;
-    }
+    padding: 100px 0;
 }
-
-@media (max-width: 1024px)
-{
-    .hidden-sm
-    {
-        display: none;
-    }
-}
-
-.heading h1
-{
-    font-size: 40px;
-    font-weight: 500;
-
-    padding-top: 90px; 
-
-    color: #000;
-}
-@media (max-width: 767px)
-{
-    .heading h1
-    {
-        font-size: 26px;
-        line-height: 1; 
-
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-}
-
 .heading h2
 {
-    font-size: 70px;
-    font-weight: 500;
+    font-family: 'GothamProBold';
+    font-size: 55px;
 
-    padding-top: 60px; 
-    padding-bottom: 30px;
+    position: relative;
+    z-index: 2;
 
-    color: #fff;
+    display: inline-block; 
+
+    color: #000;
 }
 @media (max-width: 767px)
 {
@@ -128,7 +84,19 @@ a
         padding-bottom: 30px;
     }
 }
+.heading h2:before
+{
+    position: absolute;
+    top: 30px;
+    right: -110px;
 
+    width: 100px;
+    height: 3px;
+
+    content: '';
+
+    background: #f0be9c;
+}
 .heading h3
 {
     font-size: 34px;
@@ -147,7 +115,6 @@ a
         padding-bottom: 30px;
     }
 }
-
 .heading h4
 {
     font-size: 25px;
@@ -170,19 +137,21 @@ a
 
 .btn
 {
-    font-weight: 500;
+    font-family: 'GothamProRegular'; 
 
     display: inline-block;
 
-    padding: 13px 44px;
+    padding: 20px 30px;
 
-    transition: all .3s; 
+    transition: all .3s;
 
     color: #fff;
+    border: 2px solid #4d2ce0;
     border-radius: 60px;
-    background: #f84e44;
+    background: #4d2ce0;
 }
 .btn:hover
 {
-    background: #512ee2;
+    color: #4d2ce0; 
+    background: #fff;
 }
