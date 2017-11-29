@@ -1,0 +1,1188 @@
+figure,
+figcaption
+{
+    display: block;
+}
+
+.transition
+{
+    -webkit-transition: top 400ms linear;
+       -moz-transition: top 400ms linear;
+        -ms-transition: top 400ms linear;
+         -o-transition: top 400ms linear;
+            transition: top 400ms linear;
+}
+
+.timeTo
+{
+    font-family: Tahoma, Verdana, Aial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 108%;
+
+    height: 32px;
+}
+.timeTo span
+{
+    vertical-align: top;
+}
+.timeTo figure
+{
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+}
+.timeTo figcaption
+{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 80%;
+
+    text-align: center;
+
+    color: #888;
+}
+.timeTo div
+{
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden; 
+
+    width: 25px;
+    height: 30px;
+}
+.timeTo ul
+{
+    position: absolute;
+    left: 3px; 
+
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+.timeTo ul li
+{
+    font-family: 'Roboto'; 
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.jackpot__block__timer_clock1.timeTo div,
+.jackpot__block__timer_clock2.timeTo div,
+.jackpot__block__timer_clock3.timeTo div
+{
+    width: 15px; 
+    height: 34px;
+}
+
+.jackpot__block__timer_clock1.timeTo.timeTo-white,
+.jackpot__block__timer_clock2.timeTo.timeTo-white,
+.jackpot__block__timer_clock3.timeTo.timeTo-white
+{
+    font-size: 30px;
+    font-weight: 300;
+
+    padding-bottom: 20px; 
+
+    color: #fff;
+}
+.jackpot__block__timer_clock1.timeTo.timeTo-white li,
+.jackpot__block__timer_clock2.timeTo.timeTo-white li,
+.jackpot__block__timer_clock3.timeTo.timeTo-white li
+{
+    font-size: 20px;
+}
+
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .jackpot__block__timer_clock1.timeTo,
+    .jackpot__block__timer_clock2.timeTo,
+    .jackpot__block__timer_clock3.timeTo
+    {
+        line-height: 78%; 
+
+        padding-top: 25px;
+    }
+    .jackpot__block__timer_clock1.timeTo.timeTo-white,
+    .jackpot__block__timer_clock2.timeTo.timeTo-white,
+    .jackpot__block__timer_clock3.timeTo.timeTo-white
+    {
+        font-size: 39px !important;
+        font-weight: 300;
+
+        position: relative;
+        bottom: 0; 
+
+        padding-bottom: 20px;
+
+        color: #fff;
+    }
+    .jackpot__block__timer_clock1.timeTo.timeTo-white li,
+    .jackpot__block__timer_clock2.timeTo.timeTo-white li,
+    .jackpot__block__timer_clock3.timeTo.timeTo-white li
+    {
+        font-size: 39px;
+    }
+    .jackpot__block__timer_clock1.timeTo div,
+    .jackpot__block__timer_clock2.timeTo div,
+    .jackpot__block__timer_clock3.timeTo div
+    {
+        width: 30px; 
+        height: 33px;
+    }
+}
+
+.lottery__rally__timer1.timeTo,
+.lottery__rally__timer2.timeTo,
+.lottery__rally__timer3.timeTo
+{
+    line-height: 78%; 
+
+    padding-top: 25px;
+}
+.lottery__rally__timer1.timeTo.timeTo-white,
+.lottery__rally__timer2.timeTo.timeTo-white,
+.lottery__rally__timer3.timeTo.timeTo-white
+{
+    font-size: 41px;
+    font-weight: 300;
+
+    position: relative;
+    bottom: 0; 
+
+    padding-bottom: 20px;
+
+    color: #fff;
+}
+
+.lottery__rally__timer1.timeTo div,
+.lottery__rally__timer2.timeTo div,
+.lottery__rally__timer3.timeTo div
+{
+    width: 30px; 
+    height: 33px;
+}
+
+.hat
+{
+    background: #f8f8f8;
+}
+.hat p
+{
+    font-weight: 300;
+    line-height: 36px; 
+
+    padding: 0 40px;
+    padding-top: 30px;
+}
+@media (max-width: 767px)
+{
+    .hat p
+    {
+        padding: 0;
+    }
+}
+.hat .jackpot
+{
+    position: relative;
+    top: 70px;
+}
+.hat .jackpot__block
+{
+    margin-bottom: 30px; 
+    padding: 30px 45px;
+
+    border-radius: 20px;
+    background: #6d41be;
+    background: linear-gradient(to top, #6d41be, #bb64f9);
+}
+@media (max-width: 500px)
+{
+    .hat .jackpot__block
+    {
+        padding: 15px 15px;
+    }
+}
+.hat .jackpot__block p
+{
+    margin-bottom: -13px; 
+    padding-top: 25px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.hat .jackpot__block--color
+{
+    background: #4d2ce0;
+    background: linear-gradient(to top, #4d2ce0, #8453f7);
+}
+.hat .jackpot__block--color .btn--block
+{
+    border: 2px solid #8453f7 !important;
+}
+.hat .jackpot__block--color .btn--block:hover
+{
+    background: #4d2ce0 !important;
+}
+.hat .jackpot__block--color2
+{
+    background: #212121;
+    background: linear-gradient(to top, #212121, #363636);
+}
+.hat .jackpot__block--color2 .btn--block
+{
+    border: 2px solid #4e4e4e !important;
+}
+.hat .jackpot__block--color2 .btn--block:hover
+{
+    background: #212121 !important;
+}
+.hat .jackpot__block--color2 .btn--block .icon-angle-down
+{
+    color: #3b3b3b !important;
+}
+.hat .jackpot__block h4
+{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px; 
+
+    color: #fff;
+}
+@media (max-width: 1024px)
+{
+    .hat .jackpot__block h4
+    {
+        font-size: 72px;
+
+        padding-top: 66px; 
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 500px)
+{
+    .hat .jackpot__block h4
+    {
+        font-size: 40px;
+    }
+}
+.hat .jackpot__block p
+{
+    font-size: 13px; 
+
+    text-transform: uppercase;
+
+    color: #fff;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block p
+    {
+        font-size: 23px;
+    }
+}
+.hat .jackpot__block span
+{
+    font-size: 52px;
+    font-weight: 300;
+
+    color: #fff;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block span
+    {
+        font-size: 108px;
+    }
+}
+.hat .jackpot__block span img
+{
+    padding-left: 10px;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block span img
+    {
+        width: 50px;
+        height: auto;
+        padding-left: 20px;
+    }
+}
+.hat .jackpot__block__maney p
+{
+    font-size: 20px;
+    font-weight: 100;
+
+    padding-top: 5px; 
+
+    color: #feb78b;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block__maney p
+    {
+        font-size: 36px;
+    }
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block__timer p
+    {
+        padding-top: 50px;
+    }
+}
+.hat .jackpot__block__timer_clock1 span,
+.hat .jackpot__block__timer_clock1 p,
+.hat .jackpot__block__timer .jackpot__block__timer_clock2 span,
+.hat .jackpot__block__timer .jackpot__block__timer_clock2 p,
+.hat .jackpot__block__timer .jackpot__block__timer_clock3 span,
+.hat .jackpot__block__timer .jackpot__block__timer_clock3 p
+{
+    display: inline-block;
+
+    padding: 0;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block__timer_clock1 span,
+    .hat .jackpot__block__timer_clock1 p,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock2 span,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock2 p,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock3 span,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock3 p
+    {
+        font-size: 36px;
+    }
+}
+.hat .jackpot__block__timer_clock1 span,
+.hat .jackpot__block__timer .jackpot__block__timer_clock2 span,
+.hat .jackpot__block__timer .jackpot__block__timer_clock3 span
+{
+    font-size: 20px;
+
+    padding-left: 3px;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block__timer_clock1 span,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock2 span,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock3 span
+    {
+        font-size: 36px;
+    }
+}
+.hat .jackpot__block__timer_clock1 p,
+.hat .jackpot__block__timer .jackpot__block__timer_clock2 p,
+.hat .jackpot__block__timer .jackpot__block__timer_clock3 p
+{
+    font-size: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+@media (min-width: 540px) and (max-width: 1024px)
+{
+    .hat .jackpot__block__timer_clock1 p,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock2 p,
+    .hat .jackpot__block__timer .jackpot__block__timer_clock3 p
+    {
+        font-size: 36px;
+    }
+}
+.hat .jackpot__block .btn--block
+{
+    width: 100%;
+    padding: 13px 0; 
+
+    border: 2px solid #9955e0;
+    background: none;
+}
+.hat .jackpot__block .btn--block:hover
+{
+    background: #6d41be;
+}
+.hat .jackpot__block .btn--block .icon-angle-down
+{
+    font-size: 40px; 
+
+    color: #b299de;
+}
+
+.lottery--none
+{
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    padding-bottom: 20px;
+}
+@media (max-width: 1024px)
+{
+    .lottery--none
+    {
+        display: none;
+    }
+}
+
+.lottery
+{
+    margin-top: -200px; 
+    padding-top: 270px;
+
+    background: url('../img/lottery--bg.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.lottery h2
+{
+    position: relative;
+}
+.lottery h2:before
+{
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+
+    width: 60px;
+    height: 2px;
+
+    content: '';
+
+    background: #f84e44;
+}
+.lottery p
+{
+    font-size: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.lottery__rally
+{
+    width: 640px;
+    margin: 0 auto; 
+
+    background: url('../img/lattery--block.png') no-repeat;
+}
+@media (min-width: 1039px)
+{
+    .lottery__rally
+    {
+        width: 100%; 
+
+        background-size: 100% 400px;
+    }
+}
+@media (max-width: 767px)
+{
+    .lottery__rally
+    {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0 20px;
+
+        border-radius: 30px; 
+        background: #583390;
+    }
+}
+.lottery__rally--bg1
+{
+    background: url('../img/lattery--block1.png') no-repeat;
+}
+@media (min-width: 1039px)
+{
+    .lottery__rally--bg1
+    {
+        background-size: 100% 400px;
+    }
+}
+.lottery__rally--bg2
+{
+    background: url('../img/lattery--block2.png') no-repeat;
+}
+@media (min-width: 1039px)
+{
+    .lottery__rally--bg2
+    {
+        background-size: 100% 400px;
+    }
+}
+.lottery__rally--bg2 .padding
+{
+    padding-top: 37px;
+    padding-right: 20px;
+}
+.lottery__rally .flip-counter
+{
+    position: relative;
+    left: 125px;
+}
+.lottery__rally .flip-counter:before
+{
+    position: absolute;
+    top: 5px;
+    left: -60px;
+
+    width: 45px;
+    height: 75px;
+
+    content: '';
+
+    background: url('../img/triangle.png') no-repeat;
+}
+.lottery__rally .flip-counter li.b
+{
+    height: 40px;
+}
+.lottery__rally h3
+{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 48px;
+
+    padding-top: 50px;
+
+    color: #fff;
+}
+@media (max-width: 767px)
+{
+    .lottery__rally h3
+    {
+        padding-top: 25px;
+    }
+}
+.lottery__rally b
+{
+    font-weight: 100;
+    line-height: 20px;
+
+    display: inline-block;
+
+    padding-top: 10px;
+    padding-right: 95px; 
+
+    color: #fdcb8b;
+}
+.lottery__rally p
+{
+    font-weight: 100;
+    line-height: 20px;
+
+    padding-top: 18px;
+    padding-bottom: 0; 
+
+    color: #fdcb8b;
+}
+.lottery__rally__timer1 p,
+.lottery__rally__timer1 span,
+.lottery__rally .lottery__rally__timer2 p,
+.lottery__rally .lottery__rally__timer2 span,
+.lottery__rally .lottery__rally__timer3 p,
+.lottery__rally .lottery__rally__timer3 span
+{
+    display: inline-block;
+
+    color: #fff;
+}
+.lottery__rally__timer1 p,
+.lottery__rally .lottery__rally__timer2 p,
+.lottery__rally .lottery__rally__timer3 p
+{
+    font-size: 44px;
+}
+.lottery__rally__timer1 .minute,
+.lottery__rally .lottery__rally__timer2 .minute,
+.lottery__rally .lottery__rally__timer3 .minute
+{
+    padding-left: 9px;
+}
+.lottery__rally__timer1 .hour,
+.lottery__rally .lottery__rally__timer2 .hour,
+.lottery__rally .lottery__rally__timer3 .hour
+{
+    padding-right: 7px;
+}
+.lottery__rally__timer1 .hour,
+.lottery__rally__timer1 .minute,
+.lottery__rally__timer1 .second,
+.lottery__rally .lottery__rally__timer2 .hour,
+.lottery__rally .lottery__rally__timer2 .minute,
+.lottery__rally .lottery__rally__timer2 .second,
+.lottery__rally .lottery__rally__timer3 .hour,
+.lottery__rally .lottery__rally__timer3 .minute,
+.lottery__rally .lottery__rally__timer3 .second
+{
+    font-size: 15px;
+
+    color: #9a8ada;
+}
+.lottery__rally__timer1--color,
+.lottery__rally .lottery__rally__timer2--color,
+.lottery__rally .lottery__rally__timer3--color
+{
+    margin-left: -15px; 
+    padding-bottom: 60px;
+}
+.lottery__rally__timer1--color span,
+.lottery__rally .lottery__rally__timer2--color span,
+.lottery__rally .lottery__rally__timer3--color span
+{
+    font-size: 62px;
+}
+.lottery__rally__timer1--color p,
+.lottery__rally .lottery__rally__timer2--color p,
+.lottery__rally .lottery__rally__timer3--color p
+{
+    font-size: 20px; 
+
+    color: #fdcb8b;
+}
+.lottery__rally__timer1--btn,
+.lottery__rally .lottery__rally__timer2--btn,
+.lottery__rally .lottery__rally__timer3--btn
+{
+    width: 100%; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 20px 0;
+}
+@media (max-width: 767px)
+{
+    .lottery__rally__timer1--btn,
+    .lottery__rally .lottery__rally__timer2--btn,
+    .lottery__rally .lottery__rally__timer3--btn
+    {
+        position: relative;
+        top: 15px;
+
+        margin: 0 auto;
+    }
+}
+.lottery__rally__timer1--btn p,
+.lottery__rally__timer1--btn span,
+.lottery__rally .lottery__rally__timer2--btn p,
+.lottery__rally .lottery__rally__timer2--btn span,
+.lottery__rally .lottery__rally__timer3--btn p,
+.lottery__rally .lottery__rally__timer3--btn span
+{
+    font-size: 20px;
+
+    display: inline-block;
+
+    padding-top: 0;
+
+    color: #fff;
+}
+@media (max-width: 400px)
+{
+    .lottery__rally__timer1--btn p,
+    .lottery__rally__timer1--btn span,
+    .lottery__rally .lottery__rally__timer2--btn p,
+    .lottery__rally .lottery__rally__timer2--btn span,
+    .lottery__rally .lottery__rally__timer3--btn p,
+    .lottery__rally .lottery__rally__timer3--btn span
+    {
+        font-size: 15px;
+    }
+}
+.lottery__rally__timer1--btn p,
+.lottery__rally .lottery__rally__timer2--btn p,
+.lottery__rally .lottery__rally__timer3--btn p
+{
+    font-weight: 400; 
+
+    padding-right: 25px;
+
+    text-transform: uppercase;
+
+    border-right: 1px solid #fa7a71;
+}
+@media (max-width: 400px)
+{
+    .lottery__rally__timer1--btn p,
+    .lottery__rally .lottery__rally__timer2--btn p,
+    .lottery__rally .lottery__rally__timer3--btn p
+    {
+        padding-right: 15px;
+    }
+}
+.lottery__rally__timer1--btn span,
+.lottery__rally .lottery__rally__timer2--btn span,
+.lottery__rally .lottery__rally__timer3--btn span
+{
+    font-weight: 100;
+
+    padding-left: 25px;
+}
+@media (max-width: 400px)
+{
+    .lottery__rally__timer1--btn span,
+    .lottery__rally .lottery__rally__timer2--btn span,
+    .lottery__rally .lottery__rally__timer3--btn span
+    {
+        padding-left: 15px;
+    }
+}
+.lottery__rally__timer3 span
+{
+    font-size: 40px;
+
+    margin-left: -5px; 
+    padding-top: 20px;
+}
+.lottery__past
+{
+    padding: 25px; 
+
+    background: #000;
+}
+@media (max-width: 767px)
+{
+    .lottery__past
+    {
+        padding: 25px 0;
+    }
+}
+.lottery__past__content
+{
+    border-right: 2px solid #1b1b1c;
+}
+@media (max-width: 1024px)
+{
+    .lottery__past__content
+    {
+        margin-top: 15px; 
+
+        border-right: none;
+        border-bottom: 2px solid #1b1b1c;
+    }
+}
+.lottery__past__content--border
+{
+    border: none;
+}
+.lottery__past__content p
+{
+    position: relative;
+
+    padding-top: 0; 
+
+    color: #777;
+}
+.lottery__past__content p span
+{
+    font-weight: 100; 
+
+    padding-left: 5px;
+
+    color: #ffd5a7;
+}
+.lottery__past__content p:before
+{
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+    left: 0;
+
+    width: 60px;
+    height: 2px;
+    margin: 0 auto;
+
+    content: '';
+
+    background: #1b1b1c;
+}
+.lottery__past__content__block
+{
+    padding-top: 10px;
+}
+.lottery__past__content__block p
+{
+    font-size: 12px;
+
+    padding-top: 30px; 
+    padding-bottom: 10px;
+
+    text-transform: uppercase;
+
+    color: #777;
+}
+.lottery__past__content__block p:before
+{
+    display: none;
+}
+.lottery__past__content__block span
+{
+    font-size: 25px;
+    font-weight: 100; 
+
+    position: relative;
+
+    color: #fff;
+}
+@media (max-width: 400px)
+{
+    .lottery__past__content__block span
+    {
+        font-size: 20px;
+    }
+}
+.lottery__past__content__block span p
+{
+    font-size: 12px;
+    font-weight: 400; 
+
+    position: absolute;
+    top: -28px;
+    right: -30px;
+
+    color: #777;
+}
+.lottery__past__content__block--btn
+{
+    font-weight: 100;
+
+    margin-top: 30px; 
+
+    text-transform: uppercase;
+
+    border: 2px solid #343435;
+    background: none;
+}
+@media (max-width: 1024px)
+{
+    .lottery__past__content__block--btn
+    {
+        font-size: 15px;
+
+        margin-bottom: 20px;
+    }
+}
+
+.subs
+{
+    padding-bottom: 90px; 
+
+    background: url('../img/lottery--bg.png') no-repeat;
+}
+@media (max-width: 1024px)
+{
+    .subs
+    {
+        padding-bottom: 50px;
+    }
+}
+.subs h2
+{
+    font-size: 40px;
+    font-weight: 300;
+
+    padding-top: 60px; 
+
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+@media (max-width: 490px)
+{
+    .subs h2
+    {
+        font-size: 25px;
+    }
+}
+.subs h2 span
+{
+    font-size: 30px;
+
+    letter-spacing: 1px;
+    text-transform: none; 
+
+    color: #c79d7f;
+}
+.subs p
+{
+    font-weight: 100; 
+    line-height: 30px;
+
+    padding: 30px 40px;
+
+    color: #808089;
+}
+@media (max-width: 1024px)
+{
+    .subs p
+    {
+        font-size: 22px;
+        font-weight: 100;
+    }
+}
+@media (max-width: 440px)
+{
+    .subs img
+    {
+        width: 100%;
+    }
+}
+@media (max-width: 470px)
+{
+    .subs form
+    {
+        padding: 0 10px;
+    }
+}
+.subs form input
+{
+    font-size: 16px;
+
+    width: 50%;
+    height: 38px;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+    padding-top: 3px;
+    padding-left: 30px;
+
+    color: #808089;
+    border: 2px solid #666;
+    border-radius: 40px;
+    outline: none;
+    background: none;
+}
+@media (max-width: 470px)
+{
+    .subs form input
+    {
+        box-sizing: border-box; 
+        width: 100%;
+    }
+}
+@media (max-width: 470px)
+{
+    .subs form a
+    {
+        width: 100%; 
+        padding: 15px 0;
+    }
+}
+
+.work-question
+{
+    padding-bottom: 85px; 
+
+    background: #f8f8f8;
+}
+
+.work h3
+{
+    position: relative;
+
+    margin-top: 90px; 
+    margin-bottom: 76px;
+}
+
+.work h3:before
+{
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    left: 0;
+
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+
+    content: '';
+
+    background: #f84e44;
+}
+
+.work__heading p
+{
+    font-size: 20px;
+
+    padding-bottom: 55px;
+}
+
+.work__block
+{
+    margin-bottom: 100px;
+    padding: 40px;
+
+    background: #fff;
+    box-shadow: 0 40px 50px 0 #e1e1e1;
+}
+.work__block .work__block__img
+{
+    width: 100%;
+    height: 240px;
+}
+.work__block p
+{
+    min-height: 60px;
+}
+@media (max-width: 1024px)
+{
+    .work__block p
+    {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1024px)
+{
+    .work__block--none
+    {
+        display: none;
+    }
+}
+.work__block.work__block--margin
+{
+    margin-right: 15px;
+}
+@media (max-width: 1024px)
+{
+    .work__block.work__block--margin
+    {
+        margin-right: 0;
+    }
+}
+
+.question
+{
+    padding-bottom: 85px;
+}
+.question h3
+{
+    padding-bottom: 45px;
+}
+.question a
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    position: relative; 
+
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 25px 0;
+    padding-right: 50px;
+
+    color: #005cb9;
+}
+.question p
+{
+    font-size: 16px;
+
+    padding-bottom: 25px;
+}
+.question__content
+{
+    border-bottom: 1px solid #ddd;
+}
+.question__content--border
+{
+    border-top: 1px solid #ddd;
+}
+.question .icon-angle-down
+{
+    font-size: 30px;
+
+    position: absolute;
+    top: 30%;
+    right: 20px;
+
+    display: inline-block;
+
+    margin-left: 20px;
+
+    transition: all .3s ease-in-out; 
+
+    color: #005cb9;
+}
+
+.question__content.active .icon-angle-down
+{
+    transform: rotate(180deg);
+
+    color: #999;
+}
+
+.form h3
+{
+    padding-bottom: 30px;
+}
+
+.form p
+{
+    padding-bottom: 10px;
+}
+
+.form form
+{
+    padding-left: 45px;
+}
+@media (max-width: 1024px)
+{
+    .form form
+    {
+        padding: 0;
+    }
+}
+.form form input
+{
+    font-size: 24px;
+
+    width: 90%;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 20px; 
+
+    border: 2px solid #dcdcdc;
+    border-radius: 40px;
+    outline: none;
+}
+@media (max-width: 1024px)
+{
+    .form form input
+    {
+        width: 98%;
+    }
+}
+.form form textarea
+{
+    font-size: 24px;
+
+    width: 90%;
+    height: 45px;
+    min-height: 140px;
+    margin-bottom: 20px;
+    padding: 10px; 
+
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    outline: none;
+}
+@media (max-width: 1024px)
+{
+    .form form textarea
+    {
+        width: 98%;
+    }
+}
+.form form .g-recaptcha
+{
+    padding-bottom: 20px;
+}
+@media (max-width: 330px)
+{
+    .form form .g-recaptcha
+    {
+        margin-left: -18px;
+    }
+}
