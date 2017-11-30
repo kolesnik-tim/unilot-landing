@@ -803,6 +803,13 @@
     background: linear-gradient(to right, #1a1a1a, #1a1a1a, #0a0a0a);
     -webkit-background-clip: text;
 }
+@media (max-width: 900px)
+{
+    .roadshow .heading span
+    {
+        display: none;
+    }
+}
 .roadshow .container
 {
     position: relative;
