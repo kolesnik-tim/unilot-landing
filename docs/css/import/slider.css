@@ -30,15 +30,17 @@
 }
 .swiper-slide__block
 {
-    width: 300px; 
+    width: 100%; 
 
     border-radius: 20px;
     background: #fff;
 }
 .swiper-slide__block img
 {
-    position: relative;
-    top: -1px;
+    width: 100%;
+
+    border-top-left-radius: 17px; 
+    border-top-right-radius: 17px;
 }
 .swiper-slide__block p
 {
@@ -82,6 +84,14 @@
     top: 58%;
 
     background: none;
+}
+@media (max-width: 1024px)
+{
+    .swiper-button-prev,
+    .swiper-button-next
+    {
+        display: none;
+    }
 }
 
 .icon-chevron-thin-left

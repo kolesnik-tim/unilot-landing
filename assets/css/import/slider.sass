@@ -20,10 +20,11 @@
 	&__block
 		background: $white
 		border-radius: 20px
-		width: 300px
+		width: 100%
 		img
-			position: relative
-			top: -1px
+			width: 100%
+			border-top-right-radius: 17px
+			border-top-left-radius: 17px
 		p
 			font-size: 20px
 			color: $black
@@ -47,6 +48,8 @@
 .swiper-button-prev, .swiper-button-next
 	top: 58%
 	background: none
+	@media(max-width: 1024px)
+		display: none
 .icon-chevron-thin-left
 	color: $white
 	font-size: 55px

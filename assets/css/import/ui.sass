@@ -4,7 +4,7 @@
 body
 	width: 100%
 	height: 100%
-	overflow-x: hidden
+	// overflow-x: hidden
 	background-size: cover
 	position: relative
 	font-family: "Roboto", sn-serif !important
@@ -32,6 +32,8 @@ a
 .heading 
 	padding: 100px 0
 	position: relative
+	@media(max-width: 767px)
+		padding: 50px 0
 	h2
 		font-family: "GothamProBold"
 		color: $black
@@ -39,11 +41,8 @@ a
 		position: relative
 		z-index: 2
 		display: inline-block
-		@media("max-width: 767px")
-			font-size: 26px
-			padding-bottom: 30px
-			padding-top: 30px
-			line-height: 1
+		@media(max-width: 560px)
+			font-size: 35px
 		&:before
 			content: ''
 			position: absolute
@@ -52,25 +51,8 @@ a
 			width: 100px
 			height: 3px
 			background-image: linear-gradient(to right, #f0bc9a, #f0dcbf)
-	h3
-		color: #292834
-		font-size: 34px
-		font-weight: 400
-		@media("max-width: 767px")
-			font-size: 26px
-			padding-bottom: 30px
-			padding-top: 30px
-			line-height: 1
-	h4
-		color: $white
-		font-size: 25px
-		font-weight: 100
-		line-height: 48px
-		@media("max-width: 767px")
-			font-size: 26px
-			padding-bottom: 30px
-			padding-top: 30px
-			line-height: 1
+			@media(max-width: 560px)
+				display: none
 .btn
 	padding: 20px 30px
 	background-image: linear-gradient(to right, #4d2ce0, #8453f7)

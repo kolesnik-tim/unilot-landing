@@ -45,6 +45,8 @@
 		position: relative
 		padding-top: 50px
 		padding-bottom: 45px
+		@media(max-width: 670px)
+			font-size: 35px
 		&:before
 			content: ''
 			position: absolute
@@ -53,6 +55,12 @@
 			width: 100px
 			height: 3px
 			background-image: linear-gradient(to right, #f0bc9a, #f0dcbf)
+			@media(max-width: 1130px)
+				right: 20px
+			@media(max-width: 1070px)
+				right: -5px
+			@media(max-width: 1024px)
+				display: none
 	p
 		font-size: 18px
 		font-weight: 300
@@ -67,6 +75,9 @@
 			font-weight: 300
 			padding-left: 10px
 			padding-right: 30px
+			@media(max-width: 360px)
+				padding-left: 0px
+				padding-right: 23px
 			&:nth-child(2)
 				padding-left: 17px
 
@@ -75,6 +86,8 @@
 			font-size: 48px
 			font-weight: 300
 			line-height: 70px
+			@media(max-width: 360px)
+				font-size: 40px
 	&__scale
 		border-radius: 20px
 		background: #d9dbe0
@@ -90,6 +103,8 @@
 			padding: 0
 			position: relative
 			z-index: 3
+			@media(max-width: 400px)
+				font-size: 13px
 		span
 			position: absolute
 			z-index: 3
@@ -123,13 +138,23 @@
 			font-family: "GothamProBold"
 		&--padding
 			margin-right: 20px
+			@media(max-width: 767px)
+				margin-right: 0
 	.btn
 		font-size: 25px
 		padding: 20px 50px
 		margin-top: 50px
+		margin-bottom: 70px
+		@media(max-width: 400px)
+			padding: 15px 30px
 	img
 		position: relative
 		left: 65px 
+		width: 100%
+		@media(max-width: 1000px)
+			top: 24%
+		@media(max-width: 767px)
+			display: none
 .about
 	position: relative
 	padding-bottom: 70px
@@ -142,6 +167,8 @@
 		z-index: 1
 		opacity: 0.1
 		color: $gray
+		@media(max-width: 767px)
+			display: none
 	p
 		font-size: 20px
 		font-weight: 300
@@ -153,8 +180,13 @@
 		&:first-child
 			padding-bottom: 50px
 	img
-		position: absolute
-		top: 130px
+		position: relative
+		top: -130px
+		width: 100%
+		@media(max-width: 1024px)
+			top: 0
+		@media(max-width: 767px)
+			display: none
 .advantages
 	position: relative
 	background: #f8f8f8
@@ -169,19 +201,29 @@
 		background: linear-gradient(to right, #ffffff, #ffffff, #e6e7e8, #e6e6e8)
 		-webkit-background-clip: text
 		color: transparent
+		@media(max-width: 767px)
+			display: none
 	&__block
 		border-radius: 20px
 		border: 2px solid #e7e7e7
 		padding: 40px
 		margin-bottom: 20px
+		@media(max-width: 450px)
+			padding: 15px
 		p
 			font-size: 18px
-			padding-left: 40px
+			padding-left: 30px
+			display: inline-block
 		img
 			width: 90px
 			height: 90px
+			@media(max-width: 400px)
+				width: 70px
+				height: 70px
 		&--margin
 			margin-right: 15px
+			@media(max-width: 767px)
+				margin-right: 0
 .client
 	position: relative
 	background: #111111
@@ -199,13 +241,19 @@
 			background: linear-gradient(to right, #0a0a0a, #0f0e0e, #1a1a1a)
 			-webkit-background-clip: text
 			color: transparent
+			@media(max-width: 1024px)
+				display: none
 	p
 		font-size: 20px
 		font-weight: 300
 		padding-right: 30px
 		line-height: 30px
 		color: $gray
+		@media(max-width: 767px)
+			padding-right: 0
 	&__img
+		@media(max-width: 767px)
+			display: none
 		img
 			width: 100%
 	&__app
@@ -216,25 +264,26 @@
 			border-radius: 30px
 			display: inline-block
 			position: relative
-			padding: 10px 0 10px 70px
+			padding: 10px 20px
+			margin-bottom: 20px
+			max-width: 200px
 			span
 				font-size: 18px 
 				color: $white
 				display: inline-block
 			p
 				font-size: 13px
-				display: inline-block
 				line-height: 18px
-				padding-right: 0
 				color: $white
+				padding-right: 0
+				display: inline
 			img
 				width: 30px
 				height: auto
-				position: absolute
-				top: 13px
-				left: 20px
+				padding-top: 4px
 	&__lng
 		padding-top: 30px
+		margin-bottom: 30px
 		img
 			width: 25px
 			padding-right: 20px
@@ -252,12 +301,19 @@
 			z-index: 1
 			opacity: 0.1
 			color: $gray
+			@media(max-width: 767px)
+				display: none
 .function
 	position: relative
 	background: #f8f8f8
 	padding-bottom: 90px
 	.heading
 		padding-bottom: 60px
+		h2
+			@media(max-width: 1120px)
+				font-size: 50px
+			@media(max-width: 767px)
+				font-size: 35px
 		span
 			font-size: 160px
 			font-family: "GothamProBold"
@@ -266,11 +322,18 @@
 			right: 0
 			z-index: 1
 			color: #ffffff
+			@media(max-width: 767px)
+				display: none
 	.h2
 		span
 			background: linear-gradient(to right, #ffffff, #e6e6e8)
 			-webkit-background-clip: text
 			color: transparent
+	img
+		@media(max-width: 1024px)
+			width: 70%
+		@media(max-width: 767px)
+			width: 100%
 	p
 		position: relative
 		padding-left: 25px
@@ -309,6 +372,8 @@
 			right: 0
 			z-index: 1
 			color: #f7f7f8
+			@media(max-width: 1024px)
+				display: none
 	p
 		font-weight: 300
 		font-size: 18px
@@ -318,6 +383,12 @@
 		color: #bab9b9
 		font-weight: 300
 		padding-left: 30px
+		@media(max-width: 767px)
+			display: inline-block
+			padding-top: 40px
+		@media(max-width: 730px)
+			padding-left: 0
+			line-height: 20px
 	.btn
 		box-shadow: 0 10px 30px 3px #f0edfd
 		position: relative
@@ -347,8 +418,6 @@
 			color: transparent
 	.container
 		position: relative
-
-
 .advisors
 	position: relative
 	background: $white
@@ -362,6 +431,8 @@
 			right: 0
 			z-index: 1
 			color: #f7f7f8
+			@media(max-width: 1105px)
+				display: none
 	&__block
 		margin-bottom: 100px
 		a
@@ -392,6 +463,14 @@
 			font-size: 12px
 			font-weight: 400
 			width: 200px
+			@media(max-width: 767px)
+				width: 100%
+		img
+			width: 100%
+			@media(max-width: 767px)
+				width: 80%
+			@media(max-width: 450px)
+				width: 100%
 .team
 	position: relative
 	background: #f8f8f8
@@ -407,9 +486,12 @@
 			background: linear-gradient(to right, #ffffff, #ffffff, #ffffff, #f9f9fa, #e6e7e8)
 			-webkit-background-clip: text
 			color: transparent
+			@media(max-width: 1024px)
+				display: none
 	a
 		margin-bottom: 30px
 		display: inline-block
+		width: 80%
 		p
 			font-size: 18px
 			line-height: 30px
@@ -431,6 +513,12 @@
 			bottom: 7px
 			padding-left: 10px
 			color: $gray
+		img
+			width: 100%
+			@media(max-width: 767px)
+				width: 50%
+			@media(max-width: 420px)
+				width: 100%
 .faq
 	position: relative
 	background: $white
@@ -443,6 +531,8 @@
 		right: 0
 		z-index: 1
 		color: #f7f7f8
+		@media(max-width: 767px)
+			display: none
 	&__block	
 		border-bottom: 1px solid #dddddd
 		a

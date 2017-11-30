@@ -3,7 +3,7 @@ block content
 	section.sentence
 		.container
 			.row
-				.col-xs-8
+				.col-sm-8.col-xs-12
 					h1 Initial Coin Offering Pre-sale Started
 					p Bonus Expires In:
 					.sentence__timer
@@ -23,21 +23,21 @@ block content
 								p $834,343 Raised
 								span 49%
 								.sentence__scale_block
-						.col-xs-4.center-xs
+						.col-sm-4.col-xs-12.center-xs
 							.sentence__block.sentence__block--padding
 								p Current bonus
 								span 40%
-						.col-xs-4.center-xs
+						.col-sm-4.col-xs-12.center-xs
 							.sentence__block.sentence__block--padding
 								p min commitment
 								span 0.5 ETH
-						.col-xs-4.center-xs
+						.col-sm-4.col-xs-12.center-xs
 							.sentence__block
 								p gas limit
 								span 40%
-						.col-xs-12
+						.col-xs-12.start-sm.center-xs
 							a(href="#").btn Contribute Now
-				.col-xs-4.end-xs
+				.col-sm-4.end-xs
 					img(src="img/sentence.png", alt="")
 	section.about
 		.container
@@ -46,10 +46,10 @@ block content
 					.heading
 						h2 What is Unilot
 						span Who we are
-				.col-xs-5
+				.col-md-5.col-sm-7.col-xs-12
 					p <b>Unilot</b> is Decentralized Lottery Based on<br> <b>Ethereum Smart Contracts.</b><br>The maximum amount of raised funding is $12 000 000. This will help to speed up the expansion of the project, increase the amount of guaranteed prize fund and accelerate the launch of new drawings. <b>Unilot</b> is Decentralized Lottery Based on <b>Ethereum Smart Contracts.</b>
 					p The maximum amount of raised funding is $12 000 000. This will help to speed up the expansion of the project, increase the amount of guaranteed prize fund and accelerate the launch of new drawings.
-				.col-xs-7
+				.col-md-7.col-sm-5
 					img(src="img/about.png", alt="")
 	section.advantages
 		.container
@@ -58,30 +58,48 @@ block content
 					.heading
 						h2 Unilot Benefits
 						span Benefits
-				.col-xs-6
-					.advantages__block.advantages__block--margin.flex.middle-xs
-						img(src="img/01.svg", alt="")
-						p Unilot will not access or hold any Player Funds
-				.col-xs-6
-					.advantages__block.flex.middle-xs
-						img(src="img/02.svg", alt="")
-						p Consensus of game state is reached between players with encrypted P2P messaging
-				.col-xs-6
-					.advantages__block.advantages__block--margin.flex.middle-xs
-						img(src="img/03.svg", alt="")
-						p Play games globally or make money by hosting your own game tournaments
-				.col-xs-6
-					.advantages__block.flex.middle-xs
-						img(src="img/04.svg", alt="")
-						p Feature Single player RNG & Multiplayer games
-				.col-xs-6
-					.advantages__block.advantages__block--margin.flex.middle-xs
-						img(src="img/05.svg", alt="")
-						p Decintrilized and isolated to prevent God Mode
-				.col-xs-6
-					.advantages__block.flex.middle-xs
-						img(src="img/06.svg", alt="")
-						p Unilot platform can be Whitelabeled
+				.col-sm-6.col-xs-12
+					.advantages__block.advantages__block--margin
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/01.svg", alt="")
+							.col-xs-9
+								p Unilot will not access or hold any Player Funds
+				.col-sm-6.col-xs-12
+					.advantages__block
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/02.svg", alt="")
+							.col-xs-9
+								p Consensus of game state is reached between players with encrypted P2P messaging
+				.col-sm-6.col-xs-12
+					.advantages__block.advantages__block--margin
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/03.svg", alt="")
+							.col-xs-9
+								p Play games globally or make money by hosting your own game tournaments
+				.col-sm-6.col-xs-12
+					.advantages__block
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/04.svg", alt="")
+							.col-xs-9
+								p Feature Single player RNG & Multiplayer games
+				.col-sm-6.col-xs-12
+					.advantages__block.advantages__block--margin
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/05.svg", alt="")
+							.col-xs-9
+								p Decintrilized and isolated to prevent God Mode
+				.col-sm-6.col-xs-12
+					.advantages__block
+						.row.middle-xs
+							.col-xs-3
+								img(src="img/06.svg", alt="")
+							.col-xs-9
+								p Unilot platform can be Whitelabeled
 	section.client
 		.container
 			.row
@@ -89,22 +107,28 @@ block content
 					.heading
 						h2 Mobile Client
 						span Mobile App
-				.col-xs-7
+				.col-sm-7.col-xs-12
 					p Unilot Mobile Client will be available on iOS and Android platforms. Unilot mobile will support multiple regions, languages offered English, Russian and German
-			.row
-				.col-xs-5
+			.row.start-sm.center-xs
+				.col-md-5.col-sm-7.col-xs-12
 					.client__app
 						.row
-							.col-xs-6
+							.col-sm-6.col-xs-12
 								a(href="#")
-									img(src="img/google-play.svg", alt="")
-									p Download on the
-									span Google Play
-							.col-xs-6
+									.row
+										.col-xs-3
+											img(src="img/google-play.svg", alt="")
+										.col-xs-9
+											p Download on the
+											span Google Play
+							.col-sm-6.col-xs-12
 								a(href="#")
-									img(src="img/apple.svg", alt="")
-									p Download on the
-									span App Store
+									.row
+										.col-xs-3
+											img(src="img/apple.svg", alt="")
+										.col-xs-9
+											p Download on the
+											span App Store
 					.client__lng
 						a(href="#")
 							img(src="img/spain.svg", alt="")
@@ -116,7 +140,7 @@ block content
 							img(src="img/united-kingdom.svg", alt="")
 						a(href="")
 							img(src="img/germany.svg", alt="")
-				.col-xs-7
+				.col-md-7.col-sm-5
 					.client__img
 						img(src="img/client.png", alt="")
 	section.roadmap
@@ -129,7 +153,7 @@ block content
 	section.function
 		.container
 			.row
-				.col-xs-7
+				.col-md-7.col-xs-12
 					.heading
 						h2 Token Distribution
 						span Tokens
@@ -140,7 +164,7 @@ block content
 						span.green
 					p 10% Early Adopters & Founders 
 						span.blue
-				.col-xs-5
+				.col-md-5.col-xs-12
 					.heading.h2
 						h2 Use of Funds
 						span Flow
@@ -162,7 +186,7 @@ block content
 					.heading
 						h2 Whitepaper
 						span Whitepaper 
-				.col-xs-5
+				.col-sm-5.col-xs-12
 					p Read our whitepaper in order to know more about the Unilot® platform, the token, the team and ICO round details.
 				.col-xs-12
 					a(href="#").btn View White Paper
@@ -263,7 +287,7 @@ block content
 						h2 Advisors
 						span Our Advisors
 			.row
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -274,7 +298,7 @@ block content
 								b Legal issues partner
 								span
 								p The company works in a partnership agreement with a number of leading legal companies of Russia, Europe, the USA, and South Korea. 
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -285,7 +309,7 @@ block content
 								b International Relations and Business  Intelligence advisor
 								span
 								p Business Process Advisor: Program Portfolio & Tech. Project Management, Infrastructure, Agile, Global Eng. Management; ex-Program Manager Network Operations at Google Inc. 
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -296,7 +320,7 @@ block content
 								b Strategic product development advisor
 								span
 								p Blockchain Evangelist, Co-founder of FinTechCluster, Mobile wallet and online service enterprise architect, CEO of playhall.io
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -307,7 +331,7 @@ block content
 								b Marketing advisor
 								span
 								p Co-founder of telegraf.money who successfully led preICO worth $7 000 000. A self-starter and successful entrepreneur, more than 10 years experience on marketing and creating multimillion worth companies.
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -318,7 +342,7 @@ block content
 								b Expert in Blockchain Loterry
 								span
 								p More then 10 year experience in Auction and Lottery business, creating brands like Intuitsia, Credsberry etc. 
-				.col-xs-4
+				.col-md-4.col-sm-6.col-xs-12
 					.advisors__block
 						.row
 							.col-xs-5
@@ -337,56 +361,56 @@ block content
 						h2 Team
 						span Unilot Team
 			.row.center-xs
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Ilya-Son.png", alt="")
 						p Ilya Son
 							i.icon-linkedin
 						b Founder
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Alexander-Lushnikov.png", alt="")
 						p Alexander Lushnikov
 							i.icon-linkedin
 						b Smart contracts developer
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Arseniy-Aganov.png", alt="")
 						p Arseniy Aganov
 							i.icon-linkedin
 						b Senior Android developer
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Shovkat-Kukanbaev.png", alt="")
 						p Shovkat Kukanbaev
 							i.icon-linkedin
 						b UI/UX Designer
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Darya-Kadirova.png", alt="")
 						p Darya Kadirova
 							i.icon-linkedin
 						b Marketing manager
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Azat-Khuziyakhmetov.png", alt="")
 						p Azat Khuziyakhmetov
 							i.icon-linkedin
 						b Backend developer
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Bakhodir-Ashirmatov.png", alt="")
 						p Bakhodir Ashirmatov
 							i.icon-linkedin
 						b Senior iOS developer
 						span
-				.col-xs-3
+				.col-md-3.col-sm-4.col-xs-12
 					a(href="#")
 						img(src="img/team/Daniel-Khalupskiy.png", alt="")
 						p Daniel Khalupskiy
@@ -400,7 +424,7 @@ block content
 					.heading
 						h2 FAQ's
 						span FAQ's
-				.col-xs-5
+				.col-md-5.col-sm-7.col-xs-12
 					.faq__block.faq__block--one
 						a(onclick="$('#name1').slideToggle('slow');" href="javascript://") Is Unilot licensed online gambling site?
 							i.icon-chevron-thin-down

@@ -26,6 +26,13 @@
     background: linear-gradient(to right, #000, #141414, #1a1a1a);
     -webkit-background-clip: text;
 }
+@media (max-width: 767px)
+{
+    .footer .heading span
+    {
+        display: none;
+    }
+}
 .footer__top a
 {
     display: block;
@@ -92,6 +99,13 @@
 .footer__bottom
 {
     padding-bottom: 140px;
+}
+@media (max-width: 767px)
+{
+    .footer__bottom
+    {
+        padding-bottom: 60px;
+    }
 }
 .footer__bottom a
 {
