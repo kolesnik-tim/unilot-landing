@@ -104,8 +104,8 @@
     font-weight: normal;
     font-style: normal; 
 
-    src: url('../fonts/icomoon.eot?3en2e0');
-    src: url('../fonts/icomoon.eot?3en2e0#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?3en2e0') format('truetype'), url('../fonts/icomoon.woff?3en2e0') format('woff'), url('../fonts/icomoon.svg?3en2e0#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?ytdqo5');
+    src: url('../fonts/icomoon.eot?ytdqo5#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?ytdqo5') format('truetype'), url('../fonts/icomoon.woff?ytdqo5') format('woff'), url('../fonts/icomoon.svg?ytdqo5#icomoon') format('svg');
 }
 
 [class^='icon-'],
@@ -127,15 +127,11 @@
 .icon-brand:before
 {
     content: '\e900';
-
-    color: #999;
 }
 
 .icon-facebook:before
 {
     content: '\e901';
-
-    color: #fefefe;
 }
 
 .icon-github:before
@@ -166,25 +162,39 @@
 .icon-telegram:before
 {
     content: '\e907';
-
-    color: #fff;
 }
 
 .icon-twitter:before
 {
     content: '\e908';
-
-    color: #fff;
 }
 
 .icon-YouTube-2:before
 {
     content: '\e909';
-
-    color: #fff;
 }
 
 .icon-chevron-thin-down:before
 {
     content: '\e90a';
+}
+
+.icon-chevron-thin-left:before
+{
+    content: '\e90b';
+}
+
+.icon-chevron-thin-right:before
+{
+    content: '\e90c';
+}
+
+.icon-arrow_drop_down:before
+{
+    content: '\e5c5';
+}
+
+.icon-file-text2:before
+{
+    content: '\e926';
 }

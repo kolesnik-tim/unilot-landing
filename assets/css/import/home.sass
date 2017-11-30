@@ -3,6 +3,39 @@
 .sentence
 	padding-top: 20px
 	background: $light-gray
+	position: relative
+	&__social
+		position: absolute
+		bottom: 30px
+		left: 30px
+		opacity: 0.5
+		transition: all 0.3s
+		&:hover
+			opacity: 1
+		p
+			font-family: "GothamProRegular"
+			font-size: 15px !important
+			transform: rotate(270deg)
+			position: relative
+			left: -17px
+			bottom: 45px
+		&__block
+			background: #d9dbe0
+			flex-direction: column
+			display: flex
+			width: 50px
+			border-radius: 30px
+			a
+				color: $white
+				&:hover
+					color: $lilac
+			i
+				padding: 10px
+				font-size: 28px
+				display: inline-block
+				margin-bottom: 5px
+
+
 	h1
 		font-family: "GothamProBold"
 		color: $black
@@ -200,6 +233,112 @@
 		img
 			width: 25px
 			padding-right: 20px
+.roadmap
+	position: relative
+	background: $white
+	.heading
+		padding-bottom: 60px
+		span
+			font-size: 160px
+			font-family: "GothamProBold"
+			position: absolute
+			top: 52px
+			right: 0
+			z-index: 1
+			opacity: 0.1
+			color: $gray
+.function
+	position: relative
+	background: #f8f8f8
+	padding-bottom: 90px
+	.heading
+		padding-bottom: 60px
+		span
+			font-size: 160px
+			font-family: "GothamProBold"
+			position: absolute
+			top: 52px
+			right: 0
+			z-index: 1
+			opacity: 0.1
+			color: $gray
+	p
+		position: relative
+		padding-left: 25px
+		line-height: 30px
+		color: #03034b
+		font-size: 15px
+		span
+			position: absolute
+			left: 0
+			top: 7px
+			width: 15px
+			height: 15px
+			border-radius: 60px
+			background: #000
+		.purple
+			background: #3f4ab7
+		.green
+			background: #54ca95
+		.blue
+			background: #79d9ea
+		.lilac
+			background: #9771d0
+		.yellow
+			background: #ffd6c0
+.whitepaper
+	position: relative
+	background: $white
+	padding-bottom: 400px
+	.heading
+		padding-bottom: 60px
+		span
+			font-size: 160px
+			font-family: "GothamProBold"
+			position: absolute
+			top: 52px
+			right: 0
+			z-index: 1
+			opacity: 0.1
+			color: $gray
+	p
+		font-weight: 300
+		font-size: 18px
+		line-height: 30px
+		padding-bottom: 80px
+	span
+		color: #bab9b9
+		font-weight: 300
+		padding-left: 30px
+	.btn
+		box-shadow: 0 10px 30px 5px #e6e1fb
+		position: relative
+		padding-left: 75px
+		.icon-file-text2
+			position: absolute
+			left: 25px
+			top: 13px
+			font-size: 30px
+.roadshow
+	position: relative
+	background: $black
+	.heading
+		padding-bottom: 60px
+		h2
+			color: $white
+		span
+			font-size: 160px
+			font-family: "GothamProBold"
+			position: absolute
+			top: 52px
+			right: 0
+			z-index: 1
+			opacity: 0.1
+			color: $gray
+	.container
+		position: relative
+
+
 .advisors
 	position: relative
 	background: $white
@@ -244,12 +383,6 @@
 			font-size: 12px
 			font-weight: 400
 			width: 200px
-
-
-
-
-
-
 .team
 	position: relative
 	background: #f8f8f8

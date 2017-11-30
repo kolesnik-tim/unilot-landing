@@ -19,10 +19,8 @@ body
 
 p
 {
-    margin: 0;
+    margin: 0; 
     padding: 0;
-
-    color: #666;
 }
 
 h1,
@@ -450,12 +448,425 @@ a
     border: 2px solid #fff;
     border-radius: 60px;
 }
+.header__lng a .icon-arrow_drop_down
+{
+    font-size: 25px;
+
+    position: relative;
+    top: 4px;
+}
+
+.footer
+{
+    position: relative;
+
+    background: #000;
+}
+.footer .heading
+{
+    padding-bottom: 60px;
+}
+.footer .heading h2
+{
+    color: #fff;
+}
+.footer .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.footer__top a
+{
+    display: block;
+
+    margin-bottom: 40px; 
+    padding: 20px 0;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #111;
+}
+.footer__top a p
+{
+    position: relative;
+    top: 5px; 
+
+    display: inline-block;
+
+    padding-left: 15px;
+}
+.footer__top a .git
+{
+    top: -20px;
+}
+.footer__top a .icon-github
+{
+    font-size: 65px;
+}
+.footer__top a .icon-telegram
+{
+    font-size: 35px; 
+
+    display: inline-block;
+
+    width: 65px;
+    height: 65px;
+
+    border-radius: 180px;
+    background: #298fc2;
+}
+.footer__top a .icon-telegram:before
+{
+    position: relative;
+    top: 15px;
+    left: -3px;
+}
+.footer__top a .icon-medium
+{
+    font-size: 35px; 
+
+    display: inline-block;
+
+    width: 65px;
+    height: 65px;
+
+    border: 1px solid #212121;
+    border-radius: 180px;
+}
+.footer__top a .icon-medium:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom
+{
+    padding-bottom: 140px;
+}
+.footer__bottom a
+{
+    display: block;
+
+    margin-bottom: 40px; 
+    padding: 10px 0;
+
+    color: #fff;
+    border: 1px solid #222;
+    border-radius: 15px;
+}
+.footer__bottom a p
+{
+    position: relative;
+    top: 8px; 
+
+    display: inline-block;
+
+    padding-left: 15px;
+}
+.footer__bottom a .icon-reddit
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #ff4500;
+}
+.footer__bottom a .icon-reddit:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-twitter
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #50abf1;
+}
+.footer__bottom a .icon-twitter:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-facebook
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #3a559f;
+}
+.footer__bottom a .icon-facebook:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-linkedin2
+{
+    font-size: 23px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #0084b1;
+}
+.footer__bottom a .icon-linkedin2:before
+{
+    position: relative;
+    top: 12px;
+}
+.footer__bottom a .medium
+{
+    display: inline-block; 
+
+    width: 50px;
+    height: 50px;
+
+    background: url('../img/Slack_Mark.png') no-repeat;
+}
+.footer__bottom a .slack
+{
+    top: -20px;
+}
+.footer__bottom a .icon-YouTube-2
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #e62117;
+}
+.footer__bottom a .icon-YouTube-2:before
+{
+    position: relative;
+    top: 12px;
+}
+.footer__logo img
+{
+    height: 27px;
+}
+.footer__logo p
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+    color: #999;
+}
+
+.swiper-container
+{
+    max-width: 1000px;
+    padding-bottom: 190px;
+}
+
+.swiper-slide
+{
+    font-size: 18px;
+
+    background: #000;
+}
+.swiper-slide h4
+{
+    font-family: 'GothamProMedium';
+    font-size: 40px;
+
+    padding-bottom: 10px; 
+
+    color: #fff;
+}
+.swiper-slide p
+{
+    font-size: 15px;
+    font-weight: 400;
+
+    padding-bottom: 15px; 
+
+    color: #777;
+}
+.swiper-slide__block
+{
+    width: 300px; 
+
+    border-radius: 20px;
+    background: #fff;
+}
+.swiper-slide__block img
+{
+    position: relative;
+    top: -1px;
+}
+.swiper-slide__block p
+{
+    font-size: 20px;
+
+    width: 190px; 
+    padding-top: 20px;
+    padding-left: 25px;
+
+    color: #000;
+}
+.swiper-slide__block span
+{
+    font-size: 14px;
+
+    display: inline-block; 
+
+    padding-left: 25px;
+
+    text-transform: uppercase;
+
+    color: #532dff;
+}
+.swiper-slide__block a
+{
+    position: relative;
+    top: -10px; 
+    left: -10px;
+
+    display: inline-block;
+}
+.swiper-slide__block a img
+{
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-prev,
+.swiper-button-next
+{
+    top: 58%;
+
+    background: none;
+}
+
+.icon-chevron-thin-left
+{
+    font-size: 55px; 
+
+    color: #fff;
+}
+
+.icon-chevron-thin-right
+{
+    font-size: 55px; 
+
+    color: #fff;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    bottom: 80px;
+}
+
+.swiper-pagination-bullet
+{
+    width: 9px;
+    height: 9px; 
+
+    background: #fff;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin-left: 20px;
+}
+
+.swiper-pagination-bullet-active
+{
+    background: #fff;
+}
 
 .sentence
 {
+    position: relative; 
+
     padding-top: 20px;
 
     background: #e9eaed;
+}
+.sentence__social
+{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+    transition: all .3s; 
+
+    opacity: .5;
+}
+.sentence__social:hover
+{
+    opacity: 1;
+}
+.sentence__social p
+{
+    font-family: 'GothamProRegular';
+    font-size: 15px !important;
+
+    position: relative;
+    bottom: 45px; 
+    left: -17px;
+
+    transform: rotate(270deg);
+}
+.sentence__social__block
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 50px;
+
+    border-radius: 30px; 
+    background: #d9dbe0;
+}
+.sentence__social__block a
+{
+    color: #fff;
+}
+.sentence__social__block a:hover
+{
+    color: #4d2ce0;
+}
+.sentence__social__block i
+{
+    font-size: 28px;
+
+    display: inline-block;
+
+    margin-bottom: 5px; 
+    padding: 10px;
 }
 .sentence h1
 {
@@ -786,6 +1197,189 @@ a
 {
     width: 25px;
     padding-right: 20px;
+}
+
+.roadmap
+{
+    position: relative;
+
+    background: #fff;
+}
+.roadmap .heading
+{
+    padding-bottom: 60px;
+}
+.roadmap .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+
+.function
+{
+    position: relative;
+
+    padding-bottom: 90px; 
+
+    background: #f8f8f8;
+}
+.function .heading
+{
+    padding-bottom: 60px;
+}
+.function .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.function p
+{
+    font-size: 15px; 
+    line-height: 30px;
+
+    position: relative;
+
+    padding-left: 25px;
+
+    color: #03034b;
+}
+.function p span
+{
+    position: absolute;
+    top: 7px;
+    left: 0;
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 60px;
+    background: #000;
+}
+.function p .purple
+{
+    background: #3f4ab7;
+}
+.function p .green
+{
+    background: #54ca95;
+}
+.function p .blue
+{
+    background: #79d9ea;
+}
+.function p .lilac
+{
+    background: #9771d0;
+}
+.function p .yellow
+{
+    background: #ffd6c0;
+}
+
+.whitepaper
+{
+    position: relative;
+
+    padding-bottom: 400px; 
+
+    background: #fff;
+}
+.whitepaper .heading
+{
+    padding-bottom: 60px;
+}
+.whitepaper .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.whitepaper p
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+
+    padding-bottom: 80px;
+}
+.whitepaper span
+{
+    font-weight: 300;
+
+    padding-left: 30px; 
+
+    color: #bab9b9;
+}
+.whitepaper .btn
+{
+    position: relative;
+
+    padding-left: 75px; 
+
+    box-shadow: 0 10px 30px 5px #e6e1fb;
+}
+.whitepaper .btn .icon-file-text2
+{
+    font-size: 30px; 
+
+    position: absolute;
+    top: 13px;
+    left: 25px;
+}
+
+.roadshow
+{
+    position: relative;
+
+    background: #000;
+}
+.roadshow .heading
+{
+    padding-bottom: 60px;
+}
+.roadshow .heading h2
+{
+    color: #fff;
+}
+.roadshow .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.roadshow .container
+{
+    position: relative;
 }
 
 .advisors

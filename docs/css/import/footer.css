@@ -1,0 +1,226 @@
+.footer
+{
+    position: relative;
+
+    background: #000;
+}
+.footer .heading
+{
+    padding-bottom: 60px;
+}
+.footer .heading h2
+{
+    color: #fff;
+}
+.footer .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.footer__top a
+{
+    display: block;
+
+    margin-bottom: 40px; 
+    padding: 20px 0;
+
+    color: #fff;
+    border-radius: 10px;
+    background: #111;
+}
+.footer__top a p
+{
+    position: relative;
+    top: 5px; 
+
+    display: inline-block;
+
+    padding-left: 15px;
+}
+.footer__top a .git
+{
+    top: -20px;
+}
+.footer__top a .icon-github
+{
+    font-size: 65px;
+}
+.footer__top a .icon-telegram
+{
+    font-size: 35px; 
+
+    display: inline-block;
+
+    width: 65px;
+    height: 65px;
+
+    border-radius: 180px;
+    background: #298fc2;
+}
+.footer__top a .icon-telegram:before
+{
+    position: relative;
+    top: 15px;
+    left: -3px;
+}
+.footer__top a .icon-medium
+{
+    font-size: 35px; 
+
+    display: inline-block;
+
+    width: 65px;
+    height: 65px;
+
+    border: 1px solid #212121;
+    border-radius: 180px;
+}
+.footer__top a .icon-medium:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom
+{
+    padding-bottom: 140px;
+}
+.footer__bottom a
+{
+    display: block;
+
+    margin-bottom: 40px; 
+    padding: 10px 0;
+
+    color: #fff;
+    border: 1px solid #222;
+    border-radius: 15px;
+}
+.footer__bottom a p
+{
+    position: relative;
+    top: 8px; 
+
+    display: inline-block;
+
+    padding-left: 15px;
+}
+.footer__bottom a .icon-reddit
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #ff4500;
+}
+.footer__bottom a .icon-reddit:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-twitter
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #50abf1;
+}
+.footer__bottom a .icon-twitter:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-facebook
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #3a559f;
+}
+.footer__bottom a .icon-facebook:before
+{
+    position: relative;
+    top: 13px;
+}
+.footer__bottom a .icon-linkedin2
+{
+    font-size: 23px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #0084b1;
+}
+.footer__bottom a .icon-linkedin2:before
+{
+    position: relative;
+    top: 12px;
+}
+.footer__bottom a .medium
+{
+    display: inline-block; 
+
+    width: 50px;
+    height: 50px;
+
+    background: url('../img/Slack_Mark.png') no-repeat;
+}
+.footer__bottom a .slack
+{
+    top: -20px;
+}
+.footer__bottom a .icon-YouTube-2
+{
+    font-size: 25px; 
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 180px;
+    background: #e62117;
+}
+.footer__bottom a .icon-YouTube-2:before
+{
+    position: relative;
+    top: 12px;
+}
+.footer__logo img
+{
+    height: 27px;
+}
+.footer__logo p
+{
+    font-size: 13px;
+    font-weight: 400;
+
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+    color: #999;
+}

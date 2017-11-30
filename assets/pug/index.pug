@@ -1,6 +1,19 @@
 extends include/layout.pug
 block content
 	section.sentence
+		.sentence__social
+			p Contact Us
+			.sentence__social__block
+				a(href="#")
+					i.icon-github
+				a(href="")
+					i.icon-telegram
+				a(href="")
+					i.icon-medium
+				a(href="")
+					i.icon-reddit
+				a(href="")
+					i.icon-twitter
 		.container
 			.row
 				.col-xs-8
@@ -119,6 +132,142 @@ block content
 				.col-xs-7
 					.client__img
 						img(src="img/client.png", alt="")
+	section.roadmap
+		.container
+			.row
+				.col-xs-12
+					.heading
+						h2 Roadmap
+						span Roadmap
+	section.function
+		.container
+			.row
+				.col-xs-7
+					.heading
+						h2 Token Distribution
+						span Tokens
+					img(src="img/function-1.png", alt="")
+					p 78% Purchasers 
+						span.purple
+					p 12% Team 
+						span.green
+					p 10% Early Adopters & Founders 
+						span.blue
+				.col-xs-5
+					.heading
+						h2 Use of Funds
+						span Flow
+					img(src="img/function-2.png", alt="")
+					p 40% Marketing
+						span.purple
+					p 30% Platform Development and expansion
+						span.green
+					p 15% Business Development and Partnerships
+						span.lilac
+					p 10% Legal and Misc Operations
+						span.blue
+					p 5% Consultants
+						span.yellow
+	section.whitepaper
+		.container
+			.row
+				.col-xs-12
+					.heading
+						h2 Whitepaper
+						span Whitepaper 
+				.col-xs-5
+					p Read our whitepaper in order to know more about the Unilot® platform, the token, the team and ICO round details.
+				.col-xs-12
+					a(href="#").btn View White Paper
+						i.icon-file-text2
+					span English  |  Русский  |  中文  |  Español  |  Français  |  Italiano  |  日本語
+	section.roadshow
+		.container
+			.row
+				.col-xs-12
+					.heading
+						h2 Roadshow
+						span Roadshow 
+					.swiper-container
+						.swiper-wrapper
+							.swiper-slide
+								h4 1-5
+								p November 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-1.png", alt="")
+									p Blockchain & Bitcoin Conference
+									.row
+										.col-xs-6
+											span Moscow
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+							.swiper-slide
+								h4 20-23
+								p November 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-2.png", alt="")
+									p GCC Blockchain Conference
+									.row
+										.col-xs-6
+											span Dubai
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+							.swiper-slide
+								h4 15-20
+								p December 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-3.png", alt="")
+									p Blockchain & Bitcoin Conference
+									.row
+										.col-xs-6
+											span London
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+							.swiper-slide
+								h4 1-5
+								p November 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-1.png", alt="")
+									p Blockchain & Bitcoin Conference
+									.row
+										.col-xs-6
+											span Moscow
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+							.swiper-slide
+								h4 20-23
+								p November 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-2.png", alt="")
+									p GCC Blockchain Conference
+									.row
+										.col-xs-6
+											span Dubai
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+							.swiper-slide
+								h4 15-20
+								p December 2017
+								.swiper-slide__block
+									img(src="img/swiper-slide-3.png", alt="")
+									p Blockchain & Bitcoin Conference
+									.row
+										.col-xs-6
+											span London
+										.col-xs-6.end-xs
+											a(href="#")
+												img(src="img/swiper-i.png", alt="")
+						.swiper-pagination
+					.swiper-button-prev
+						i.icon-chevron-thin-left
+					.swiper-button-next
+						i.icon-chevron-thin-right
+
 	section.advisors
 		.container
 			.row
@@ -193,8 +342,6 @@ block content
 								b Mobile product development and promotion advisor
 								span
 								p Founder of Amayasoft company, head of MyBookTools technology development. More than 10 years on programming, product management and business development.
-
-
 	section.team
 		.container
 			.row

@@ -1,8 +1,62 @@
 .sentence
 {
+    position: relative; 
+
     padding-top: 20px;
 
     background: #e9eaed;
+}
+.sentence__social
+{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+    transition: all .3s; 
+
+    opacity: .5;
+}
+.sentence__social:hover
+{
+    opacity: 1;
+}
+.sentence__social p
+{
+    font-family: 'GothamProRegular';
+    font-size: 15px !important;
+
+    position: relative;
+    bottom: 45px; 
+    left: -17px;
+
+    transform: rotate(270deg);
+}
+.sentence__social__block
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 50px;
+
+    border-radius: 30px; 
+    background: #d9dbe0;
+}
+.sentence__social__block a
+{
+    color: #fff;
+}
+.sentence__social__block a:hover
+{
+    color: #4d2ce0;
+}
+.sentence__social__block i
+{
+    font-size: 28px;
+
+    display: inline-block;
+
+    margin-bottom: 5px; 
+    padding: 10px;
 }
 .sentence h1
 {
@@ -333,6 +387,189 @@
 {
     width: 25px;
     padding-right: 20px;
+}
+
+.roadmap
+{
+    position: relative;
+
+    background: #fff;
+}
+.roadmap .heading
+{
+    padding-bottom: 60px;
+}
+.roadmap .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+
+.function
+{
+    position: relative;
+
+    padding-bottom: 90px; 
+
+    background: #f8f8f8;
+}
+.function .heading
+{
+    padding-bottom: 60px;
+}
+.function .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.function p
+{
+    font-size: 15px; 
+    line-height: 30px;
+
+    position: relative;
+
+    padding-left: 25px;
+
+    color: #03034b;
+}
+.function p span
+{
+    position: absolute;
+    top: 7px;
+    left: 0;
+
+    width: 15px;
+    height: 15px;
+
+    border-radius: 60px;
+    background: #000;
+}
+.function p .purple
+{
+    background: #3f4ab7;
+}
+.function p .green
+{
+    background: #54ca95;
+}
+.function p .blue
+{
+    background: #79d9ea;
+}
+.function p .lilac
+{
+    background: #9771d0;
+}
+.function p .yellow
+{
+    background: #ffd6c0;
+}
+
+.whitepaper
+{
+    position: relative;
+
+    padding-bottom: 400px; 
+
+    background: #fff;
+}
+.whitepaper .heading
+{
+    padding-bottom: 60px;
+}
+.whitepaper .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.whitepaper p
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+
+    padding-bottom: 80px;
+}
+.whitepaper span
+{
+    font-weight: 300;
+
+    padding-left: 30px; 
+
+    color: #bab9b9;
+}
+.whitepaper .btn
+{
+    position: relative;
+
+    padding-left: 75px; 
+
+    box-shadow: 0 10px 30px 5px #e6e1fb;
+}
+.whitepaper .btn .icon-file-text2
+{
+    font-size: 30px; 
+
+    position: absolute;
+    top: 13px;
+    left: 25px;
+}
+
+.roadshow
+{
+    position: relative;
+
+    background: #000;
+}
+.roadshow .heading
+{
+    padding-bottom: 60px;
+}
+.roadshow .heading h2
+{
+    color: #fff;
+}
+.roadshow .heading span
+{
+    font-family: 'GothamProBold';
+    font-size: 160px;
+
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    right: 0;
+
+    opacity: .1;
+    color: #999;
+}
+.roadshow .container
+{
+    position: relative;
 }
 
 .advisors

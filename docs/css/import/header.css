@@ -290,3 +290,10 @@
     border: 2px solid #fff;
     border-radius: 60px;
 }
+.header__lng a .icon-arrow_drop_down
+{
+    font-size: 25px;
+
+    position: relative;
+    top: 4px;
+}
