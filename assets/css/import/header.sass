@@ -80,30 +80,29 @@
 			top: 10px
 			width: 36px
 			height: 5px
-			background-color: $gray
+			background-color: #6c52e3
 			transition: all 0.3s
+			border-radius: 7px
 			backface-visibility: hidden
 		position: relative
 		display: block
-		width: 30px
+		width: 36px
 		height: 5px
-		background-color: $gray
+		background-color: #8161eb
 		transition: all 0.3s
 		backface-visibility: hidden
+		border-radius: 7px
 		&:before
 			width: 36px
+			border-radius: 7px
 			height: 5px
-			background-color: $gray
+			background-color: #ac8ff3
 			transition: all 0.3s
 			backface-visibility: hidden
-	&.on span
-		background-color: transparent
-		&:before
-			transform: rotate(45deg) translate(6px, 5px)
-		&:after
-			transform: rotate(-45deg) translate(9px, -8px)
-#btn.on
-	display: none
+body.on
+	#btn, .sentence__social
+		display: none
+
 .menu-close
 	position: absolute
 	top: 20px

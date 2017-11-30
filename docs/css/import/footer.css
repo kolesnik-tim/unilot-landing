@@ -22,8 +22,9 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #000, #141414, #1a1a1a);
+    -webkit-background-clip: text;
 }
 .footer__top a
 {

@@ -8,7 +8,8 @@
 }
 .sentence__social
 {
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     bottom: 30px;
     left: 30px;
 
@@ -82,7 +83,7 @@
 
     content: '';
 
-    background: #f0be9c;
+    background-image: linear-gradient(to right, #f0bc9a, #f0dcbf);
 }
 .sentence p
 {
@@ -270,8 +271,9 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #fff, #e6e7e8, #e6e6e8);
+    -webkit-background-clip: text;
 }
 .advantages__block
 {
@@ -321,16 +323,19 @@
     top: 35px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #0a0a0a, #0f0e0e, #1a1a1a);
+    -webkit-background-clip: text;
 }
 .client p
 {
     font-size: 20px;
     font-weight: 300;
-    line-height: 30px; 
+    line-height: 30px;
 
     padding-right: 30px;
+
+    color: #999;
 }
 .client__img img
 {
@@ -369,6 +374,8 @@
     display: inline-block;
 
     padding-right: 0;
+
+    color: #fff;
 }
 .client__app a img
 {
@@ -435,8 +442,13 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #fff;
+}
+.function .h2 span
+{
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #e6e6e8);
+    -webkit-background-clip: text;
 }
 .function p
 {
@@ -504,8 +516,7 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .whitepaper p
 {
@@ -527,16 +538,17 @@
 {
     position: relative;
 
-    padding-left: 75px; 
+    padding: 13px 45px; 
+    padding-left: 75px;
 
-    box-shadow: 0 10px 30px 5px #e6e1fb;
+    box-shadow: 0 10px 30px 3px #f0edfd;
 }
 .whitepaper .btn .icon-file-text2
 {
-    font-size: 30px; 
+    font-size: 25px; 
 
     position: absolute;
-    top: 13px;
+    top: 10px;
     left: 25px;
 }
 
@@ -544,7 +556,7 @@
 {
     position: relative;
 
-    background: #000;
+    background: #131414;
 }
 .roadshow .heading
 {
@@ -564,8 +576,9 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #1a1a1a, #1a1a1a, #0a0a0a);
+    -webkit-background-clip: text;
 }
 .roadshow .container
 {
@@ -592,8 +605,7 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .advisors__block
 {
@@ -669,8 +681,9 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #fff, #fff, #f9f9fa, #e6e7e8);
+    -webkit-background-clip: text;
 }
 .team a
 {
@@ -733,8 +746,7 @@
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .faq__block
 {

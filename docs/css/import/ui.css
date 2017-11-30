@@ -95,7 +95,7 @@ a
 
     content: '';
 
-    background: #f0be9c;
+    background-image: linear-gradient(to right, #f0bc9a, #f0dcbf);
 }
 .heading h3
 {
@@ -146,9 +146,8 @@ a
     transition: all .3s;
 
     color: #fff;
-    border: 2px solid #4d2ce0;
     border-radius: 60px;
-    background: #4d2ce0;
+    background-image: linear-gradient(to right, #4d2ce0, #8453f7);
 }
 .btn:hover
 {

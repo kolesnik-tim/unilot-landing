@@ -95,7 +95,7 @@ a
 
     content: '';
 
-    background: #f0be9c;
+    background-image: linear-gradient(to right, #f0bc9a, #f0dcbf);
 }
 .heading h3
 {
@@ -146,9 +146,8 @@ a
     transition: all .3s;
 
     color: #fff;
-    border: 2px solid #4d2ce0;
     border-radius: 60px;
-    background: #4d2ce0;
+    background-image: linear-gradient(to right, #4d2ce0, #8453f7);
 }
 .btn:hover
 {
@@ -294,12 +293,13 @@ a
 
     display: block;
 
-    width: 30px;
+    width: 36px;
     height: 5px;
 
     transition: all .3s;
 
-    background-color: #999;
+    border-radius: 7px; 
+    background-color: #8161eb;
 
     backface-visibility: hidden;
 }
@@ -321,7 +321,8 @@ a
 
     transition: all .3s;
 
-    background-color: #999;
+    border-radius: 7px;
+    background-color: #6c52e3;
 
     backface-visibility: hidden;
 }
@@ -332,24 +333,14 @@ a
 
     transition: all .3s;
 
-    background-color: #999;
+    border-radius: 7px;
+    background-color: #ac8ff3;
 
     backface-visibility: hidden;
 }
-#btn.on span
-{
-    background-color: transparent;
-}
-#btn.on span:before
-{
-    transform: rotate(45deg) translate(6px, 5px);
-}
-#btn.on span:after
-{
-    transform: rotate(-45deg) translate(9px, -8px);
-}
 
-#btn.on
+body.on #btn,
+body.on .sentence__social
 {
     display: none;
 }
@@ -480,8 +471,9 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #000, #141414, #1a1a1a);
+    -webkit-background-clip: text;
 }
 .footer__top a
 {
@@ -693,7 +685,7 @@ a
 {
     font-size: 18px;
 
-    background: #000;
+    background: #131414;
 }
 .swiper-slide h4
 {
@@ -818,7 +810,8 @@ a
 }
 .sentence__social
 {
-    position: absolute;
+    position: fixed;
+    z-index: 10;
     bottom: 30px;
     left: 30px;
 
@@ -892,7 +885,7 @@ a
 
     content: '';
 
-    background: #f0be9c;
+    background-image: linear-gradient(to right, #f0bc9a, #f0dcbf);
 }
 .sentence p
 {
@@ -1080,8 +1073,9 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #fff, #e6e7e8, #e6e6e8);
+    -webkit-background-clip: text;
 }
 .advantages__block
 {
@@ -1131,16 +1125,19 @@ a
     top: 35px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #0a0a0a, #0f0e0e, #1a1a1a);
+    -webkit-background-clip: text;
 }
 .client p
 {
     font-size: 20px;
     font-weight: 300;
-    line-height: 30px; 
+    line-height: 30px;
 
     padding-right: 30px;
+
+    color: #999;
 }
 .client__img img
 {
@@ -1179,6 +1176,8 @@ a
     display: inline-block;
 
     padding-right: 0;
+
+    color: #fff;
 }
 .client__app a img
 {
@@ -1245,8 +1244,13 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #fff;
+}
+.function .h2 span
+{
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #e6e6e8);
+    -webkit-background-clip: text;
 }
 .function p
 {
@@ -1314,8 +1318,7 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .whitepaper p
 {
@@ -1337,16 +1340,17 @@ a
 {
     position: relative;
 
-    padding-left: 75px; 
+    padding: 13px 45px; 
+    padding-left: 75px;
 
-    box-shadow: 0 10px 30px 5px #e6e1fb;
+    box-shadow: 0 10px 30px 3px #f0edfd;
 }
 .whitepaper .btn .icon-file-text2
 {
-    font-size: 30px; 
+    font-size: 25px; 
 
     position: absolute;
-    top: 13px;
+    top: 10px;
     left: 25px;
 }
 
@@ -1354,7 +1358,7 @@ a
 {
     position: relative;
 
-    background: #000;
+    background: #131414;
 }
 .roadshow .heading
 {
@@ -1374,8 +1378,9 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #1a1a1a, #1a1a1a, #0a0a0a);
+    -webkit-background-clip: text;
 }
 .roadshow .container
 {
@@ -1402,8 +1407,7 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .advisors__block
 {
@@ -1479,8 +1483,9 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: transparent; 
+    background: linear-gradient(to right, #fff, #fff, #fff, #f9f9fa, #e6e7e8);
+    -webkit-background-clip: text;
 }
 .team a
 {
@@ -1543,8 +1548,7 @@ a
     top: 52px;
     right: 0;
 
-    opacity: .1;
-    color: #999;
+    color: #f7f7f8;
 }
 .faq__block
 {
