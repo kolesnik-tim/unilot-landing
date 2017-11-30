@@ -53,6 +53,15 @@
 
     color: #cdcdcd;
 }
+.slideout-menu-right a:hover
+{
+    color: #502ee1;
+}
+.slideout-menu-right a .icon-arrow_drop_down
+{
+    position: relative;
+    top: 4px;
+}
 
 .slideout-menu-left
 {

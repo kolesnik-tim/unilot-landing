@@ -516,6 +516,10 @@
     border-radius: 30px;
     background: #000;
 }
+.client__app a:hover
+{
+    box-shadow: 0 5px 20px 5px #222;
+}
 .client__app a span
 {
     font-size: 18px;
@@ -546,10 +550,17 @@
     margin-bottom: 30px; 
     padding-top: 30px;
 }
+.client__lng a
+{
+    display: inline-block;
+
+    margin-right: 20px;
+
+    border-radius: 180px;
+}
 .client__lng img
 {
     width: 25px;
-    padding-right: 20px;
 }
 
 .roadmap

@@ -183,6 +183,15 @@ a
 
     color: #cdcdcd;
 }
+.slideout-menu-right a:hover
+{
+    color: #502ee1;
+}
+.slideout-menu-right a .icon-arrow_drop_down
+{
+    position: relative;
+    top: 4px;
+}
 
 .slideout-menu-left
 {
@@ -474,6 +483,10 @@ body.on .sentence__social
     border-radius: 10px;
     background: #111;
 }
+.footer__top a:hover
+{
+    box-shadow: 0 10px 30px 3px #222;
+}
 .footer__top a p
 {
     position: relative;
@@ -547,6 +560,10 @@ body.on .sentence__social
     color: #fff;
     border: 1px solid #222;
     border-radius: 15px;
+}
+.footer__bottom a:hover
+{
+    box-shadow: 0 10px 30px 3px #222;
 }
 .footer__bottom a p
 {
@@ -1323,6 +1340,10 @@ body.on .sentence__social
     border-radius: 30px;
     background: #000;
 }
+.client__app a:hover
+{
+    box-shadow: 0 5px 20px 5px #222;
+}
 .client__app a span
 {
     font-size: 18px;
@@ -1353,10 +1374,17 @@ body.on .sentence__social
     margin-bottom: 30px; 
     padding-top: 30px;
 }
+.client__lng a
+{
+    display: inline-block;
+
+    margin-right: 20px;
+
+    border-radius: 180px;
+}
 .client__lng img
 {
     width: 25px;
-    padding-right: 20px;
 }
 
 .roadmap
