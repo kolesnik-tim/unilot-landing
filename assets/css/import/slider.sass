@@ -1,71 +1,139 @@
 @import "color.sass" 
 
-
-.swiper-container
-	max-width: 1000px
-	padding-bottom: 190px
-.swiper-slide
-	font-size: 18px
-	background: #131414
-	h4
-		font-size: 40px
-		color: $white
-		font-family: "GothamProMedium"
-		padding-bottom: 10px
-	p
-		font-size: 15px
-		color: #777777
-		font-weight: 400
-		padding-bottom: 15px
+.wrap
+	margin-top: 150px
+	height: 350px
+	width: 100%
 	&__block
-		background: $white
-		border-radius: 20px
+		height: 350px
 		width: 100%
-		img
-			width: 100%
-			border-top-right-radius: 17px
-			border-top-left-radius: 17px
-		p
-			font-size: 20px
-			color: $black
-			padding-left: 25px
-			padding-top: 20px
-			width: 190px
+		list-style: none
+		position: relative
+		// transform: rotateX(50deg)
+		background: url("../img/ellipse.png") no-repeat
+		background-size: contain
 		span
-			padding-left: 25px
-			text-transform: uppercase
-			font-size: 14px
-			color: #532dff
-			display: inline-block
-		a
-			display: inline-block
-			position: relative
-			left: -10px
-			top: -10px
-			img
-				width: 40px
-				height: 40px
-.swiper-button-prev, .swiper-button-next
-	top: 58%
-	background: none
-	@media(max-width: 1024px)
-		display: none
-.icon-chevron-thin-left
-	color: $white
-	font-size: 55px
-.icon-chevron-thin-right
-	color: $white
-	font-size: 55px
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction
-	bottom: 80px
-.swiper-pagination-bullet
-	background: $white
-	width: 9px
-	height: 9px
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet
-	margin-left: 20px
-.swiper-pagination-bullet-active
-	background: $white
+			cursor: pointer
+			position: absolute
+			transition: all 0.6s
+			opacity: 0
+			margin-top: 10px
+			&.active
+				z-index: 999
+				opacity: 1
+				left: 45%
+				top: 50px
+			&.left2
+				transform: perspective(600px) translateX(-160%) rotateY(-40deg) scale(0.5)
+				opacity: 1
+				left: 20%
+				top: 20px
+			&.left1
+				transform: translateX(-102%) rotateY(-20deg) scale(0.8)
+				opacity: 1
+				left: 30%
+				top: 40px
+			&.right1
+				transform: translateX(102%) rotateY(20deg) scale(0.8)
+				opacity: 1
+				right: 30%
+				top: 40px
+			&.right2
+				transform: perspective(600px) translateX(160%) rotateY(40deg) scale(0.5)
+				opacity: 1
+				right: 20%
+				top: 20px
+			h4
+				font-size: 23px
+				position: relative
+				padding-bottom: 15px
+				&:before
+					content: ''
+					position: absolute
+					left: 0
+					bottom: 0px
+					width: 30px
+					height: 3px
+					background: #d9b48d
+			ul
+				list-style-type: disc
+				color: #666666
+				padding-left: 17px
+				padding-top: 15px
+				li
+					color: #666666
+					font-size: 15px
+				
+
+
+
+
+.roadshow
+	#swiper-2
+		max-width: 1000px
+		padding-bottom: 190px
+		.swiper-slide
+			font-size: 18px
+			background: #131414
+			h4
+				font-size: 40px
+				color: $white
+				font-family: "GothamProMedium"
+				padding-bottom: 10px
+			p
+				font-size: 15px
+				color: #777777
+				font-weight: 400
+				padding-bottom: 15px
+			&__block
+				background: $white
+				border-radius: 20px
+				width: 100%
+				img
+					width: 100%
+					border-top-right-radius: 17px
+					border-top-left-radius: 17px
+				p
+					font-size: 20px
+					color: $black
+					padding-left: 25px
+					padding-top: 20px
+					width: 190px
+				span
+					padding-left: 25px
+					text-transform: uppercase
+					font-size: 14px
+					color: #532dff
+					display: inline-block
+				a
+					display: inline-block
+					position: relative
+					left: -10px
+					top: -10px
+					img
+						width: 40px
+						height: 40px
+	.swiper-button-prev, .swiper-button-next
+		top: 58%
+		background: none
+		@media(max-width: 1024px)
+			display: none
+	.icon-chevron-thin-left
+		color: $white
+		font-size: 55px
+	.icon-chevron-thin-right
+		color: $white
+		font-size: 55px
+	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction
+		bottom: 80px
+	.swiper-pagination-bullet
+		background: $white
+		width: 9px
+		height: 9px
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet
+		margin-left: 20px
+	.swiper-pagination-bullet-active
+		background: $white
 
 
 
