@@ -261,7 +261,7 @@ body.on .sentence__social
     {
         display: none;
     }
-    .header__lng
+    .header__left
     {
         display: none;
     }
@@ -286,23 +286,53 @@ body.on .sentence__social
 
     color: #000;
 }
-.header__lng a
+.header__left a
 {
     font-size: 18px;
-}
-.header__lng a:first-child
-{
-    margin-right: 10px;
-    padding: 20px 15px;
 
-    color: #000;
+    display: inline-block;
+}
+.header__left__lng
+{
+    position: relative; 
+
+    width: 100%;
+
     border: 2px solid #fff;
     border-radius: 60px;
 }
-.header__lng a .icon-arrow_drop_down
+.header__left__lng select
+{
+    position: reative;
+
+    width: 100%;
+    height: 56px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    border: none;
+
+    filter: alpha(opacity=0);
+}
+.header__left__lng p
+{
+    font-family: 'GothamProRegular';
+    font-size: 18px;
+
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+    overflow: hidden; 
+
+    color: #000;
+}
+.header__left__lng .icon-arrow_drop_down
 {
     font-size: 25px;
 
-    position: relative;
-    top: 4px;
+    position: absolute;
+    top: 16px;
+    right: 10px;
 }

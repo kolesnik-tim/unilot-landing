@@ -148,7 +148,7 @@ body.on
 	.header
 		ul
 			display: none
-		&__lng
+		&__left
 			display: none
 	.top-line-anchor
 		top: 40px
@@ -180,18 +180,34 @@ body.on
 		a
 			font-size: 15px
 			color: $black
-	&__lng
+	&__left
 		a
 			font-size: 18px
-			&:first-child
-				margin-right: 10px
+			display: inline-block
+		&__lng
+			border: 2px solid $white
+			width: 100%
+			border-radius: 60px
+			position: relative
+			select
+				width: 100%
+				height: 56px
+				position: reative
+				border: none
+				cursor: pointer
+				opacity: 0
+				filter: alpha(opacity = 0)
+			p
+				position: absolute
+				left: 30px
+				top: 20px
+				font-size: 18px
 				color: $black
-				border: 2px solid $white
-				padding: 20px 15px
-				border-radius: 60px
+				font-family: "GothamProRegular"
+				overflow: hidden
 			.icon-arrow_drop_down
 				font-size: 25px
-				position: relative
-				top: 4px
-
+				position: absolute
+				top: 16px
+				right: 10px
 
