@@ -59,6 +59,26 @@
     margin-bottom: 5px; 
     padding: 10px;
 }
+.sentence__social__block .icon-github:hover
+{
+    color: #000;
+}
+.sentence__social__block .icon-telegram:hover
+{
+    color: #2da5e1;
+}
+.sentence__social__block .icon-medium:hover
+{
+    color: #000;
+}
+.sentence__social__block .icon-reddit:hover
+{
+    color: #ff4500;
+}
+.sentence__social__block .icon-twitter:hover
+{
+    color: #50abf1;
+}
 .sentence h1
 {
     font-family: 'GothamProBold';
@@ -294,8 +314,13 @@
 .about
 {
     position: relative;
-
-    padding-bottom: 70px;
+}
+@media (max-width: 1100px)
+{
+    .about
+    {
+        padding-bottom: 70px;
+    }
 }
 .about span
 {
@@ -566,6 +591,8 @@
 .roadmap
 {
     position: relative;
+
+    padding-bottom: 80px; 
 
     background: #fff;
 }

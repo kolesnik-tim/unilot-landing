@@ -52,6 +52,14 @@
     border-top: 2px solid #333;
     border-bottom: 2px solid #333;
 }
+.slideout-menu-right li:last-child:hover
+{
+    color: #502ee1;
+}
+.slideout-menu-right li:last-child:hover p
+{
+    color: #502ee1;
+}
 .slideout-menu-right li:last-child select
 {
     position: reative;
@@ -86,6 +94,8 @@
     position: absolute;
     top: 16px;
     right: 10px;
+
+    color: #cdcdcd;
 }
 .slideout-menu-right a
 {
@@ -291,9 +301,10 @@ body.on .sentence__social
 
 .top-line-anchor
 {
-    position: absolute;
+    position: fixed;
+    z-index: 10; 
     top: 50px;
-    left: 40px; 
+    left: 40px;
 
     display: inline-block;
 }
@@ -348,7 +359,16 @@ body.on .sentence__social
 }
 .header__left__lng:hover
 {
+    border: 2px solid #4d2ce0; 
     background: #4d2ce0;
+}
+.header__left__lng:hover p
+{
+    color: #999;
+}
+.header__left__lng:hover .icon-arrow_drop_down
+{
+    color: #999;
 }
 .header__left__lng select
 {
