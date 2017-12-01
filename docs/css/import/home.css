@@ -1010,20 +1010,21 @@
 }
 .team a img
 {
-    width: 100%;
+    max-width: 150px;
 }
 @media (max-width: 767px)
 {
     .team a img
     {
-        width: 50%;
+        width: 100%; 
+        max-width: 50%;
     }
 }
 @media (max-width: 420px)
 {
     .team a img
     {
-        width: 100%;
+        max-width: 150px;
     }
 }
 
