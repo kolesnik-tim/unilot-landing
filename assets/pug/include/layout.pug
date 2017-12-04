@@ -7,11 +7,42 @@ html(lang="ru")
 		link(rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css")
 		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css")
 		link(href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&amp;subset=latin-ext" rel="stylesheet")
+		link(rel="stylesheet", href="css/jquery.countdown.css")
 		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.min.css")
 		link(rel="stylesheet", href="css/fonts.css")
 		link(rel="stylesheet", href="css/styles.css")
 
 body
+	header.header
+		.container
+			.row.middle-xs
+				.col-md-2.col-xs-12.start-md.center-xs
+					a(href="#")
+						img(src="img/logo-header.png", alt="")
+				.col-md-6
+					ul.flex.around-xs#link
+						li
+							a(href="#link1") What is Unilot
+						li
+							a(href="#link2") White Paper
+						li
+							a(href="#link3") FAQ
+						li
+							a(href="#") Upcoming Events
+				.col-md-4.col-xs-12
+					.header__left
+						.row
+							.col-md-4
+								.header__left__lng
+									p
+									i.icon-arrow_drop_down
+									select
+										option(value="") Eng
+										option(value="1") Ru
+										option(value="2") Gr
+							.col-md-8.col-xs-12.start-md.center-xs
+								.header__left__btn
+									a(href="#").btn Contribute Now
 	.top-line-anchor
 		#sticky.sticky-element
 			.sticky-anchor
@@ -55,42 +86,27 @@ body
 							option(value="") Eng
 							option(value="1") Ru
 							option(value="2") Gr
+				.unilot
+					.row
+						.col-xs-5
+							img(src="img/logo.svg", alt="")
+							p Скачайте приложение Unilot App и будьте всегда в курсе новых лотерей
+							a(href="#") App Store
+								img(src="img/apple.svg", alt="")
+							a(href="#") Google Play
+								img(src="img/google-play.svg", alt="")
+						.col-xs-7
+							img(src="img/sentence.png", alt="")
+				.social
+					i.icon-github
+					i.icon-telegram
+					i.icon-medium
+					i.icon-reddit
+					i.icon-twitter
 	#panel.slideout-panel.slideout-panel-right
-		header.header
-			.container
-				.row.middle-xs
-					.col-md-2.col-md-offset-1.col-xs-12.center-xs
-						a(href="#")
-							img(src="img/logo-header.png", alt="")
-					.col-md-5
-						ul.flex.around-xs#link
-							li
-								a(href="#link1") What is Unilot
-							li
-								a(href="#link2") White Paper
-							li
-								a(href="#link3") FAQ
-							li
-								a(href="#") Upcoming Events
-					.col-md-4.end-xs
-						.header__left
-							.row
-								.col-xs-4
-									.header__left__lng
-										p
-										i.icon-arrow_drop_down
-										select
-											option(value="") Eng
-											option(value="1") Ru
-											option(value="2") Gr
-								.col-xs-8.start-xs
-									a(href="#").btn Contribute Now
 
-								
-								
-								
-								
-								
+
+
 		block content
 		footer.footer
 			.container
@@ -150,6 +166,9 @@ body
 
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js")
 	script(src="js/slideout.js")
+	script(src="js/jquery.plugin.min.js")
+	script(src="js/jquery.countdown.js")
+	script(src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js")
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js")
 	script(src="js/main.js")
 	block script

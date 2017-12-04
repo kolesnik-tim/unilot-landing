@@ -26,6 +26,7 @@ a
 	padding: 0 20px
 	width: 100%
 	box-sizing: border-box
+	position: relative
 :hover
 	// transition: all 0.3s
 
@@ -65,10 +66,16 @@ a
 		background: $white
 		color: $lilac
 
-
-
-
-
+.scene, .scene1, .scene2
+	z-index: 10
+	position: absolute !important
+	top: 0
+	left: -15%
+.scene1
+	top: -35px
+.scene2
+	top: 250px
+	left: 10px
 
 
 

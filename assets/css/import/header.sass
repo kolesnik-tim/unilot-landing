@@ -6,7 +6,7 @@
 	bottom: 0
 	display: none 
 	overflow-y: scroll
-	width: 256px
+	max-width: 450px
 	min-height: 100vh
 	-webkit-overflow-scrolling: touch
 	background: #181a22
@@ -69,6 +69,76 @@
 		.icon-arrow_drop_down
 			position: relative
 			top: 4px
+	.lng
+		border-top: 2px solid #2c2e3c
+		border-bottom: 1px solid #2c2e3c
+		background: #1e202b
+		a
+			font-size: 20px
+			color: #cdcdcd
+			position: relative
+			padding: 20px 80px
+			border-bottom: 1px solid #2c2e3c
+			display: inline-block
+			width: 100%
+			box-sizing: border-box
+			img
+				position: absolute
+				left: 50px
+				top: 25px
+			i
+				position: absolute
+				right: 55px
+				transition: all 0.3s ease-in-out
+		&__block
+			a
+				border: none
+		&.active
+			.icon-caret-down
+				transform: rotate(180deg)
+				color: #999999
+	.unilot
+		background: #181a22
+		width: 100%
+		padding-top: 25px
+		padding-bottom: 60px
+		padding-left: 50px
+		p
+			font-size: 14px
+			color: #818494
+			padding: 20px 0
+		a
+			padding: 10px 0px 10px 45px
+			background: $black
+			display: inline-block
+			margin-bottom: 10px
+			width: 75%
+			font-size: 18px
+			position: relative
+			border-radius: 5px
+			color: $white
+			img
+				position: absolute
+				left: 5px
+				top: 4px
+				width: 28px
+				padding-left: 0
+		img
+			width: 60%
+			padding-left: 20px
+	.social
+		position: fixed
+		bottom: 0
+		padding-top: 25px
+		padding-bottom: 25px
+		width: 450px
+		border-top: 2px solid #2c2e3c
+		background: #181a22
+		i
+			padding-left: 50px
+			color: $white
+			&:hover
+				color: $red
 .slideout-menu-left
 	left: 0
 .slideout-panel
@@ -175,13 +245,13 @@ body.on
 	display: inline-block
 	position: fixed
 	top: 50px
-	left: 40px
+	left: 20px
 	z-index: 10
 @media(max-width: 1024px)
 	.header
 		ul
 			display: none
-		&__left
+		&__left__lng
 			display: none
 	.top-line-anchor
 		top: 40px
@@ -204,8 +274,15 @@ body.on
 
 
 
-
+body.on
+	.header
+		z-index: 8
+	.sentence
+		padding-top: 20px
 .header
+	position: fixed
+	width: 100%
+	z-index: 10
 	padding: 40px 0
 	font-family: "GothamProRegular"
 	background: $light-gray
@@ -214,6 +291,7 @@ body.on
 			font-size: 15px
 			color: $black
 	&__left
+		position: relative
 		a
 			font-size: 18px
 			display: inline-block
@@ -251,4 +329,12 @@ body.on
 				position: absolute
 				top: 16px
 				right: 10px
-
+		&__btn
+			a
+				width: 150px
+			@media(max-width: 1024px)
+				position: absolute
+				bottom: -5px
+				right: 0
+			@media(max-width: 650px)
+				position: relative

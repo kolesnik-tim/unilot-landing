@@ -49,7 +49,9 @@ a
 
 .container
 {
-    box-sizing: border-box; 
+    position: relative; 
+
+    box-sizing: border-box;
     width: 100%;
     max-width: 1170px;
     padding: 0 20px;
@@ -126,4 +128,25 @@ a
 {
     color: #4d2ce0; 
     background: #fff;
+}
+
+.scene,
+.scene1,
+.scene2
+{
+    position: absolute !important;
+    z-index: 10;
+    top: 0;
+    left: -15%;
+}
+
+.scene1
+{
+    top: -35px;
+}
+
+.scene2
+{
+    top: 250px;
+    left: 10px;
 }

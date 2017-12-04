@@ -49,7 +49,9 @@ a
 
 .container
 {
-    box-sizing: border-box; 
+    position: relative; 
+
+    box-sizing: border-box;
     width: 100%;
     max-width: 1170px;
     padding: 0 20px;
@@ -128,6 +130,27 @@ a
     background: #fff;
 }
 
+.scene,
+.scene1,
+.scene2
+{
+    position: absolute !important;
+    z-index: 10;
+    top: 0;
+    left: -15%;
+}
+
+.scene1
+{
+    top: -35px;
+}
+
+.scene2
+{
+    top: 250px;
+    left: 10px;
+}
+
 .slideout-menu
 {
     position: fixed;
@@ -139,7 +162,7 @@ a
     overflow: -moz-scrollbars-none; 
     overflow-y: scroll;
 
-    width: 256px;
+    max-width: 450px;
     min-height: 100vh;
 
     background: #181a22;
@@ -244,6 +267,119 @@ a
 {
     position: relative;
     top: 4px;
+}
+.slideout-menu-right .lng
+{
+    border-top: 2px solid #2c2e3c;
+    border-bottom: 1px solid #2c2e3c;
+    background: #1e202b;
+}
+.slideout-menu-right .lng a
+{
+    font-size: 20px;
+
+    position: relative;
+
+    display: inline-block;
+
+    box-sizing: border-box; 
+    width: 100%;
+    padding: 20px 80px;
+
+    color: #cdcdcd;
+    border-bottom: 1px solid #2c2e3c;
+}
+.slideout-menu-right .lng a img
+{
+    position: absolute;
+    top: 25px; 
+    left: 50px;
+}
+.slideout-menu-right .lng a i
+{
+    position: absolute;
+    right: 55px;
+
+    transition: all .3s ease-in-out;
+}
+.slideout-menu-right .lng__block a
+{
+    border: none;
+}
+.slideout-menu-right .lng.active .icon-caret-down
+{
+    transform: rotate(180deg);
+
+    color: #999;
+}
+.slideout-menu-right .unilot
+{
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    padding-left: 50px; 
+
+    background: #181a22;
+}
+.slideout-menu-right .unilot p
+{
+    font-size: 14px;
+
+    padding: 20px 0; 
+
+    color: #818494;
+}
+.slideout-menu-right .unilot a
+{
+    font-size: 18px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 75%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 45px;
+
+    color: #fff; 
+    border-radius: 5px;
+    background: #000;
+}
+.slideout-menu-right .unilot a img
+{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+
+    width: 28px;
+    padding-left: 0;
+}
+.slideout-menu-right .unilot img
+{
+    width: 60%;
+    padding-left: 20px;
+}
+.slideout-menu-right .social
+{
+    position: fixed;
+    bottom: 0;
+
+    width: 450px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border-top: 2px solid #2c2e3c;
+    background: #181a22;
+}
+.slideout-menu-right .social i
+{
+    padding-left: 50px;
+
+    color: #fff;
+}
+.slideout-menu-right .social i:hover
+{
+    color: #f84e44;
 }
 
 .slideout-menu-left
@@ -434,7 +570,7 @@ body.on .sentence__social
     position: fixed;
     z-index: 10; 
     top: 50px;
-    left: 40px;
+    left: 20px;
 
     display: inline-block;
 }
@@ -445,7 +581,7 @@ body.on .sentence__social
     {
         display: none;
     }
-    .header__left
+    .header__left__lng
     {
         display: none;
     }
@@ -456,10 +592,24 @@ body.on .sentence__social
     }
 }
 
+body.on .header
+{
+    z-index: 8;
+}
+
+body.on .sentence
+{
+    padding-top: 20px;
+}
+
 .header
 {
     font-family: 'GothamProRegular';
 
+    position: fixed;
+    z-index: 10;
+
+    width: 100%;
     padding: 40px 0;
 
     background: #e9eaed;
@@ -469,6 +619,10 @@ body.on .sentence__social
     font-size: 15px;
 
     color: #000;
+}
+.header__left
+{
+    position: relative;
 }
 .header__left a
 {
@@ -534,6 +688,26 @@ body.on .sentence__social
     position: absolute;
     top: 16px;
     right: 10px;
+}
+.header__left__btn a
+{
+    width: 150px;
+}
+@media (max-width: 1024px)
+{
+    .header__left__btn
+    {
+        position: absolute;
+        right: 0; 
+        bottom: -5px;
+    }
+}
+@media (max-width: 650px)
+{
+    .header__left__btn
+    {
+        position: relative;
+    }
 }
 
 .footer
@@ -1083,9 +1257,10 @@ body.on .sentence__social
 
 .sentence
 {
-    position: relative; 
+    position: relative;
 
     padding-top: 20px;
+    padding-top: 140px; 
 
     background: #e9eaed;
 }
@@ -1099,6 +1274,13 @@ body.on .sentence__social
     transition: all .3s; 
 
     opacity: .5;
+}
+@media (max-width: 767px)
+{
+    .sentence__social
+    {
+        display: none;
+    }
 }
 .sentence__social:hover
 {
@@ -1253,6 +1435,7 @@ body.on .sentence__social
 }
 .sentence__timer span
 {
+    font-family: 'Roboto';
     font-size: 48px;
     font-weight: 300;
     line-height: 70px; 
@@ -1310,19 +1493,43 @@ body.on .sentence__social
     left: 46%;
 
     display: inline-block;
+
+    color: #fff;
 }
 .sentence__scale_block
 {
     position: absolute;
     z-index: 1;
-    top: -6px; 
+    top: -4px;
     left: 0;
 
-    width: 52%;
-    height: 50px;
+    width: 53%;
+    height: 47px;
 
     border-radius: 30px;
     background: #d83279;
+    background-image: linear-gradient(to right, #d83279, #ff5b4e);
+}
+@media (max-width: 700px)
+{
+    .sentence__scale_block
+    {
+        width: 55%;
+    }
+}
+@media (max-width: 500px)
+{
+    .sentence__scale_block
+    {
+        width: 58%;
+    }
+}
+@media (max-width: 400px)
+{
+    .sentence__scale_block
+    {
+        width: 60%;
+    }
 }
 .sentence__block
 {
@@ -1361,8 +1568,11 @@ body.on .sentence__social
 {
     font-size: 25px;
 
+    position: relative;
+    z-index: 10; 
+
     margin-top: 50px;
-    margin-bottom: 70px; 
+    margin-bottom: 70px;
     padding: 20px 50px;
 }
 @media (max-width: 400px)
@@ -1375,6 +1585,7 @@ body.on .sentence__social
 .sentence img
 {
     position: relative;
+    z-index: 11; 
     left: 65px;
 
     width: 100%;
@@ -1468,8 +1679,9 @@ body.on .sentence__social
 .advantages
 {
     position: relative;
+    z-index: 11; 
 
-    padding-bottom: 70px; 
+    padding-bottom: 70px;
 
     background: #f8f8f8;
 }
@@ -1593,6 +1805,11 @@ body.on .sentence__social
     {
         padding-right: 0;
     }
+}
+.client__img
+{
+    position: relative;
+    z-index: 11;
 }
 @media (max-width: 767px)
 {
@@ -2013,8 +2230,9 @@ body.on .sentence__social
 {
     font-size: 12px;
     font-weight: 400;
+    line-height: 20px; 
 
-    width: 200px; 
+    width: 200px;
 
     color: #333;
 }

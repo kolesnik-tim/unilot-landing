@@ -4,6 +4,7 @@
 	padding-top: 20px
 	background: $light-gray
 	position: relative
+	padding-top: 140px
 	&__social
 		position: fixed
 		z-index: 10
@@ -11,6 +12,8 @@
 		bottom: 30px
 		opacity: 0.5
 		transition: all 0.3s
+		@media(max-width: 767px)
+			display: none
 		&:hover
 			opacity: 1
 		p
@@ -95,6 +98,7 @@
 				padding-left: 17px
 
 		span
+			font-family: "Roboto"
 			color: $black
 			font-size: 48px
 			font-weight: 300
@@ -127,15 +131,23 @@
 			line-height: 22px
 			font-weight: 400
 			display: inline-block
+			color: $white
 		&_block
 			border-radius: 30px
 			position: absolute
-			height: 50px
+			height: 47px
 			background: #d83279
-			width: 52%
+			width: 53%
 			z-index: 1
 			left: 0
-			top: -6px
+			top: -4px
+			background-image: linear-gradient(to right, #d83279, #ff5b4e)
+			@media(max-width: 700px)
+				width: 55%
+			@media(max-width: 500px)
+				width: 58%
+			@media(max-width: 400px)
+				width: 60%
 	&__block
 		padding: 20px 0
 		border: 1px solid $white
@@ -158,12 +170,15 @@
 		padding: 20px 50px
 		margin-top: 50px
 		margin-bottom: 70px
+		position: relative
+		z-index: 10
 		@media(max-width: 400px)
 			padding: 15px 30px
 	img
 		position: relative
 		left: 65px 
 		width: 100%
+		z-index: 11
 		@media(max-width: 1000px)
 			top: 24%
 		@media(max-width: 767px)
@@ -205,6 +220,7 @@
 	position: relative
 	background: #f8f8f8
 	padding-bottom: 70px
+	z-index: 11
 	span
 		font-size: 160px
 		font-family: "GothamProBold"
@@ -266,6 +282,8 @@
 		@media(max-width: 767px)
 			padding-right: 0
 	&__img
+		position: relative
+		z-index: 11
 		@media(max-width: 767px)
 			display: none
 		img
@@ -485,6 +503,7 @@
 			font-size: 12px
 			font-weight: 400
 			width: 200px
+			line-height: 20px
 			@media(max-width: 767px)
 				width: 100%
 		img
