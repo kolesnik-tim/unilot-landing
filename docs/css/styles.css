@@ -754,6 +754,64 @@ body.on .sentence
         display: none;
     }
 }
+.footer .form input
+{
+    width: 95%;
+    margin-bottom: 25px; 
+    padding: 10px 0;
+
+    transition: all .3s;
+
+    color: #999;
+    border: none;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: none;
+}
+@media (max-width: 767px)
+{
+    .footer .form input
+    {
+        width: 100%;
+    }
+}
+.footer .form input:focus
+{
+    border-bottom: 2px solid #623be9;
+}
+.footer .form .last
+{
+    width: 100%;
+}
+.footer .form p
+{
+    font-size: 12px;
+    font-weight: 400;
+
+    text-transform: uppercase; 
+
+    color: #666;
+}
+.footer .form .g-recaptcha
+{
+    width: 100%;
+}
+.footer .btn
+{
+    width: 100%;
+    padding: 10px 0;
+}
+@media (max-width: 767px)
+{
+    .footer .btn
+    {
+        margin-top: 20px;
+    }
+}
+.footer__top
+{
+    padding-top: 80px;
+}
 .footer__top a
 {
     display: block;

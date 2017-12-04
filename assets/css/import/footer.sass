@@ -18,7 +18,37 @@
 			color: transparent
 			@media(max-width: 767px)
 				display: none
+	.form
+		input
+			width: 95%
+			border: none
+			border-bottom: 2px solid #999999
+			outline: none
+			background: none
+			color: #999999
+			transition: all 0.3s
+			padding: 10px 0
+			margin-bottom: 25px
+			@media(max-width: 767px)
+				width: 100%
+			&:focus
+				border-bottom: 2px solid #623be9
+		.last
+			width: 100%
+		p
+			font-size: 12px
+			font-weight: 400
+			color: #666666
+			text-transform: uppercase
+		.g-recaptcha
+			width: 100%
+	.btn
+		width: 100%
+		padding: 10px 0
+		@media(max-width: 767px)
+			margin-top: 20px
 	&__top
+		padding-top: 80px
 		a
 			background: #111111
 			border-radius: 10px
@@ -142,7 +172,6 @@
 			padding-top: 15px
 			padding-bottom: 40px
 			color: $gray
-
 
 
 

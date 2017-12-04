@@ -115,6 +115,23 @@ body
 						.heading
 							h2 Contact Us
 							span Contact
+						h4 Join our team
+						form.form
+							.row
+								.col-sm-4.col-xs-12
+									p NAME
+									input(type="text" name="name")
+								.col-sm-4.col-xs-12
+									p EMAIL
+									input(type="email" name="email")
+								.col-sm-4.col-xs-12
+									p COMMENT
+									input.last(type="text" name="comment")
+						.row.middle-xs
+							.col-md-4.col-sm-5.col-sm-offset-5.col-xs-12.col-md-offset-6.end-xs
+								.g-recaptcha(data-sitekey="6LfEnjsUAAAAAGZmdhR3TCJmoC9gRV6kbanReVCj")
+							.col-sm-2.center-xs.col-xs-12
+								a(href="#").btn Join
 				.footer__top
 					.row.center-xs
 						.col-sm-4.col-xs-12
@@ -168,6 +185,7 @@ body
 	script(src="js/slideout.js")
 	script(src="js/jquery.plugin.min.js")
 	script(src="js/jquery.countdown.js")
+	script(src='https://www.google.com/recaptcha/api.js')
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js")
 	script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/js/swiper.min.js")
 	script(src="js/main.js")
