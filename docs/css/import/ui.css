@@ -139,6 +139,15 @@ a
     top: 0;
     left: -15%;
 }
+@media (max-width: 1024px)
+{
+    .scene,
+    .scene1,
+    .scene2
+    {
+        display: none;
+    }
+}
 
 .scene1
 {
