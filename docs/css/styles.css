@@ -518,9 +518,9 @@ body.on .sentence__social
 
 .menu-close
 {
-    position: absolute;
+    position: sticky;
     top: 20px;
-    right: 10%;
+    left: 85%;
 
     width: 40px;
     height: 40px;
@@ -632,6 +632,13 @@ body.on .sentence
     padding: 40px 0;
 
     background: #e9eaed;
+}
+@media (max-width: 767px)
+{
+    .header
+    {
+        padding: 15px 0;
+    }
 }
 .header li a
 {
@@ -772,7 +779,7 @@ body.on .sentence
     .header__left__btn .none
     {
         width: 100%; 
-        padding: 20px 0;
+        padding: 18px 0;
     }
 }
 
