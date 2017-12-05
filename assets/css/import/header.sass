@@ -244,7 +244,7 @@ body.on
 .top-line-anchor
 	display: inline-block
 	position: fixed
-	top: 50px
+	top: 12px
 	left: 20px
 	z-index: 10
 @media(max-width: 1024px)
@@ -253,9 +253,6 @@ body.on
 			display: none
 		&__left__lng
 			display: none
-	.top-line-anchor
-		top: 40px
-		left: 30px
 @media(max-width: 767px)
 	.top-line-anchor
 		position: absolute
@@ -287,11 +284,13 @@ body.on
 	position: fixed
 	width: 100%
 	z-index: 10
-	padding: 40px 0
+	padding: 5px 0
 	font-family: "GothamProRegular"
 	background: $light-gray
-	@media(max-width: 767px)
+	@media(max-width: 1024px)
 		padding: 15px 0
+	@media(max-width: 767px)
+		padding-bottom: 13px
 	li
 		a
 			font-size: 15px
@@ -329,7 +328,7 @@ body.on
 					color: $gray
 			select
 				width: 100%
-				height: 56px
+				height: 49px
 				position: reative
 				border: none
 				cursor: pointer
@@ -338,7 +337,7 @@ body.on
 			p
 				position: absolute
 				left: 30px
-				top: 20px
+				top: 16px
 				font-size: 18px
 				color: $black
 				font-family: "GothamProRegular"
@@ -346,7 +345,7 @@ body.on
 			.icon-arrow_drop_down
 				font-size: 25px
 				position: absolute
-				top: 16px
+				top: 13px
 				right: 10px
 		&__btn
 			a
