@@ -477,7 +477,7 @@ body.on .sentence
 {
     .header
     {
-        padding-bottom: 13px;
+        padding-top: 3px;
     }
 }
 .header li a
