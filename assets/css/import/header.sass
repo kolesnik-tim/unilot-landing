@@ -256,7 +256,11 @@ body.on
 	.top-line-anchor
 		top: 40px
 		left: 30px
-
+@media(max-width: 767px)
+	.top-line-anchor
+		position: absolute
+		left: 13px
+		top: 15px
 
 
 
@@ -290,8 +294,21 @@ body.on
 		a
 			font-size: 15px
 			color: $black
+	&__logo
+		a
+			display: block
+		img
+			width: 150px
+			box-sizing: border-box
+			@media(max-width: 767px)
+				padding-top: 10px
+			@media(max-width: 520px)
+				width: 100%
+				padding-left: 40px
+
 	&__left
 		position: relative
+
 		a
 			font-size: 18px
 			display: inline-block
@@ -336,5 +353,17 @@ body.on
 				position: absolute
 				bottom: -5px
 				right: 0
-			@media(max-width: 650px)
+			@media(max-width: 767px)
 				position: relative
+				a
+					display: none
+			.none
+				display: none
+				@media(max-width: 767px)
+					display: inline-block
+				@media(max-width: 500px)
+					padding: 20px 0
+					width: 100%
+
+
+

@@ -16,9 +16,17 @@ body
 	header.header
 		.container
 			.row.middle-xs
-				.col-md-2.col-xs-12.start-md.center-xs
-					a(href="#")
-						img(src="img/logo-header.png", alt="")
+				.col-md-2.col-sm-12.col-xs-6.start-md.center-xs
+					.header__logo
+						.top-line-anchor
+							#sticky.sticky-element
+								.sticky-anchor
+								.sticky-content
+									.menu-open
+										a#btn(href='#menu')
+											span
+						a(href="#")
+							img(src="img/logo-header.svg", alt="")
 				.col-md-6
 					ul.flex.around-xs#link
 						li
@@ -29,7 +37,7 @@ body
 							a(href="#link3") FAQ
 						li
 							a(href="#") Upcoming Events
-				.col-md-4.col-xs-12
+				.col-md-4.col-sm-12.col-xs-6
 					.header__left
 						.row
 							.col-md-4
@@ -43,13 +51,7 @@ body
 							.col-md-8.col-xs-12.start-md.center-xs
 								.header__left__btn
 									a(href="#").btn Contribute Now
-	.top-line-anchor
-		#sticky.sticky-element
-			.sticky-anchor
-			.sticky-content
-				.menu-open
-					a#btn(href='#menu')
-						span
+									a(href="#").btn.none Contribute
 	.sentence__social
 		p Contact Us
 		.sentence__social__block
