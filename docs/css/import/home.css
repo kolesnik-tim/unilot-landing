@@ -639,6 +639,13 @@
 
     background: #fff;
 }
+@media (max-width: 1180px)
+{
+    .roadmap
+    {
+        padding-bottom: 50px;
+    }
+}
 .roadmap .heading
 {
     padding-bottom: 60px;
