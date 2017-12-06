@@ -191,6 +191,10 @@
     border-radius: 5px;
     background: #000;
 }
+.slideout-menu-right .unilot a:last-child
+{
+    margin-bottom: 40px;
+}
 .slideout-menu-right .unilot a img
 {
     position: absolute;
@@ -219,7 +223,7 @@
 }
 .slideout-menu-right .social i
 {
-    padding-left: 50px;
+    padding-left: 45px;
 
     color: #fff;
 }

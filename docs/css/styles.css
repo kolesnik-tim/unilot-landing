@@ -353,6 +353,10 @@ a
     border-radius: 5px;
     background: #000;
 }
+.slideout-menu-right .unilot a:last-child
+{
+    margin-bottom: 40px;
+}
 .slideout-menu-right .unilot a img
 {
     position: absolute;
@@ -381,7 +385,7 @@ a
 }
 .slideout-menu-right .social i
 {
-    padding-left: 50px;
+    padding-left: 45px;
 
     color: #fff;
 }
@@ -2374,6 +2378,13 @@ body.on .sentence
     padding-bottom: 400px; 
 
     background: #fff;
+}
+@media (max-width: 1024px)
+{
+    .whitepaper
+    {
+        padding-bottom: 50px;
+    }
 }
 .whitepaper .heading
 {

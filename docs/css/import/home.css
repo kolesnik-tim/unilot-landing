@@ -788,6 +788,13 @@
 
     background: #fff;
 }
+@media (max-width: 1024px)
+{
+    .whitepaper
+    {
+        padding-bottom: 50px;
+    }
+}
 .whitepaper .heading
 {
     padding-bottom: 60px;
