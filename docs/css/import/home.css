@@ -1171,7 +1171,9 @@
 {
     font-size: 16px;
     font-weight: 300;
-    line-height: 30px; 
+    line-height: 30px;
+
+    display: none; 
 
     padding: 15px 0;
 
